@@ -80,6 +80,8 @@ href={`/details/${post.id}`}             >
       width={600}
       height={338}
       sizes="(max-width: 768px) 100vw, 600px"
+        loading="eager"
+  priority
       quality={75}
     />
     )}
