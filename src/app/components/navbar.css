@@ -1,0 +1,44 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: rgba(247, 230, 230, 0.145);
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px 40px  ;
+
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.left-links {
+  position: relative;
+  display: flex;
+  gap: 25px;
+}
+
+.left-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.left-links a:hover {
+  color: #38bdf8;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+.active {
+  color: blue;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(255, 0, 0);
+}

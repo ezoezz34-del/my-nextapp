@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* body {
+  background: 
+  hsl(0, 45%, 13%);
+} */
+ .page{
+  padding: 3px;
+background-color: #03455ab1;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  flex-direction: row;
+  /* display: flex; */
+  /* position: absolute; */
+ }
+ .moa{
+    /* position: relative; */
+padding: auto;
+margin: auto;
+width: 45%;
+height: 100vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .secmoa{
+flex-direction: column;
+padding: auto;
+margin: auto;
+  width: 45%;
+height: 100vh;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .page2{
+    flex-direction: row;
+/* padding: auto;
+margin: auto; */
+  display: flex;
+
+ }
+ .secmoa p{
+ 
+color: #ebebf3;
+font-size: 25px;
+text-align: right;
+
+ }
+h1{
+color: #e4d0d0;
+font-size: 60px;
+margin: auto;
+padding: auto;
+
+ }
+  .highlight {
+      color: #090b0e;
+      font-weight: bold;
+    }
+    .btn {
+  display: block;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* WhatsApp */
+.whatsapp {
+  background: #25D366;
+}
+
+/* Facebook */
+.facebook {
+  background: #1877F2;
+}
+
+/* Email */
+.email {
+  background: #333;
+}

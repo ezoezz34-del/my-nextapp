@@ -1,0 +1,32 @@
+.mazen{
+ cursor: "pointer";
+font-size: 15px;
+   color: #dedae8;
+     backdrop-filter: blur(2px);
+  background: rgba(247, 230, 230, 0.145);
+
+       margin: 3px;
+       padding: 6px;
+    text-align: right;
+    /* background-color: rgb(243, 226, 226); */
+    width: 200px;
+    /* display: flex; */
+/* flex-direction: column; */
+position: absolute;
+}
+.oki{
+    color: #f4f2f2;
+    text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+}
+.in{
+    text-align: right;
+    padding-right: 2px;
+    
+}
+.in::placeholder{
+    text-align: left;
+}
+
+
+

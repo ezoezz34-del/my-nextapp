@@ -1,0 +1,147 @@
+/* .container {
+  width: 100%;
+  padding: 0px;
+  background-color: rgb(155, 28, 28);
+ min-height:100vh;
+}
+
+.articles {
+  display: grid;
+  gap: 10px;
+}
+
+.card {
+  background: #1e1e1e;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  size: 20vh;
+}
+.data{
+    color: #000;
+    font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.pagination button:hover {
+  background: #555;
+}
+
+.pagination .active {
+  background: orange;
+  color: black;
+} */
+ * {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* body {
+  background: 
+  hsl(0, 45%, 13%);
+} */
+ .page{
+  padding: 3px;
+background-color: #03455ab1;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  flex-direction: row;
+  /* display: flex; */
+  /* position: absolute; */
+ }
+ .all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 110vh;
+  color: blueviolet;
+  overflow: auto;
+  flex-direction: column;
+ }
+ .heroo{
+     width: 100%;
+/* overflow: auto; */
+
+  display: flex;
+flex-direction:row;
+/* border: 9px solid rgb(182, 10, 225); */
+  justify-content: space-between;
+  /* align-items: center; */
+margin-top: 10px;
+  text-align: center;
+    flex-wrap: wrap;
+    padding: 3px;
+
+}
+/* .diva{ 
+   justify-content: space-around;
+   background-color: #0c0c13;
+     flex-direction:column;
+     height: auto;
+     display: grid;
+
+} */
+.divv{
+  border: #a3a3eb 2px solid;
+    /* height: calc(5vh - 70px); */
+    overflow: hidden;
+    width: 210px;
+    height: 210px;
+margin: 10px;
+  box-shadow: 5px 5px 25px rgb(71, 79, 94);
+  flex-direction: column;
+    /* overflow: auto; */
+
+
+  /* flex-wrap: wrap; */
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.pagination button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.pagination button:hover {
+  background: #555;
+}
+.facebook{
+  background-Color: #1877F2;
+}
+.pagination .active {
+  background:#a3a3eb;
+  color: black;
+}
