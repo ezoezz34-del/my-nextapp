@@ -24,8 +24,10 @@ async function PostPage({ params }) {
     <Navbar/>
     <br />
     <div  className="content">
+
       <aside className="sidbar">
 
+          <h1 className="ti"> المقالات المقترحه</h1>
 
       {newss.map((post) => (
 
@@ -42,7 +44,7 @@ href={`/details/${post.id}`}             >
       width={600}
       height={338}
       sizes="(max-width: 768px) 100vw, 600px"
-        loading="eager"
+        // loading="eager"
   priority
       quality={75}
     />
@@ -63,6 +65,7 @@ href={`/details/${post.id}`}             >
         
       </aside>
       <div className="detal">
+        
          {post.image && (
 
   <Image
@@ -80,15 +83,11 @@ href={`/details/${post.id}`}             >
 <h1>{post.title}</h1>
 <br />
       <p>{post.desc}</p>
-            {/* <p>{post.desc}</p>
-                  <p>{post.desc}</p>
-                        <p>{post.desc}</p> */}
-
-
-
+         
       </div>
       
     </div>
+    <h1 className="titlebar"> المقالات ذات صله</h1>
     <div className="bar-bottom">
 
       {newss.map((post) => (
@@ -106,7 +105,7 @@ href={`/details/${post.id}`}             >
       width={600}
       height={338}
       sizes="(max-width: 768px) 100vw, 600px"
-        loading="eager"
+        // loading="eager"
   priority
       quality={75}
     />
@@ -114,7 +113,7 @@ href={`/details/${post.id}`}             >
 <br />
             <h2>{post.title}</h2>
 <br />
-      <p>{post.desc.substring(0, 150)}...</p>
+      <p>{post.desc.substring(0, 70)}...</p>
                         
 
 
