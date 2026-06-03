@@ -42,7 +42,7 @@ import Image from "next/image";
   return (
     <div className="page">
 <Navbar/>
-      <h1>اخبار الرياضه</h1>
+      <h3>اخبار الرياضه</h3>
 <div className="all">
  <section className="heroo">
       
@@ -62,6 +62,7 @@ href={`/details/${post.id}`}             >
       height={338}
       sizes="(max-width: 768px) 100vw, 600px"
       quality={75}
+      loading="eager"
     />
     )}
 <br />

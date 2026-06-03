@@ -1,10 +1,10 @@
 .mazen{
  cursor: "pointer";
 font-size: 15px;
-   color: #dedae8;
      backdrop-filter: blur(2px);
   background: rgba(247, 230, 230, 0.145);
-
+max-height: 40vh;
+overflow: auto;
        margin: 3px;
        padding: 6px;
     text-align: right;
@@ -15,7 +15,7 @@ font-size: 15px;
 position: absolute;
 }
 .oki{
-    color: #f4f2f2;
+    color: #e5e8e5;
     text-decoration: none;
 font-family: 'Courier New', Courier, monospace;
 }
@@ -26,6 +26,22 @@ font-family: 'Courier New', Courier, monospace;
 }
 .in::placeholder{
     text-align: left;
+}
+ .mazen::-webkit-scrollbar {
+    display: none;
+}
+.mazen {
+    scrollbar-width: none;
+}
+
+/* IE و Edge القديم */
+.mazen {
+    -ms-overflow-style: none;
+}
+.results h2{
+    color: #f00808;
+    font-size: 15px;
+    margin-right: 5px;
 }
 
 

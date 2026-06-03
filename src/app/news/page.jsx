@@ -128,7 +128,7 @@ import Footer from "../components/footer";
   return (
     <div className="page">
 <Navbar/>
-      {/* <h1>articles page</h1> */}
+      <h3>اخبار الفن </h3>
 <div className="all">
  <section className="heroo">
       

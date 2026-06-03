@@ -5,6 +5,46 @@ import { newss } from "../../data/newss";
 import "./page.css";
 import Link from "next/link";
 import Image from "next/image";
+export async function generateMetadata({ params }) {
+  const { id } = await params;
+
+  const post = fmnews.find((item) => item.id == id);
+
+  if (!post) {
+    return {
+
+      title: "Post Not Found",
+      description: "The requested article could not be found.",
+    };
+  }
+
+  return {
+      // metadataBase: new URL("https://news-egypt.vercel.app"),
+
+    title: post.title,
+    description: post.desc,
+    keywords: [
+      post.title,
+      "showtime",
+      "الفن News",
+      "كل جديد هنا ",
+      "مصر فن و اخبار مهمه",
+      "Latest News",
+    ],
+    openGraph: {
+      title: post.title,
+      description: post.desc,
+      images: post.image ? [post.image] : [],
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.desc,
+      images: post.image ? [post.image] : [],
+    },
+  };
+}
 
 
 async function FmpostPage({ params }) {
