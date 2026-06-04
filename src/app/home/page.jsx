@@ -59,7 +59,7 @@ function First() {
 
       <div className="hero">
 <div className="more">
-            <Link className="sami" href="/news">show more</Link>
+            <Link className="sami" href="/Articles">show more</Link>
 
           <h1> رياضه</h1>
 </div>
@@ -96,30 +96,8 @@ href={`/details/${post.id}`}             >
 
       ))}
     
- {/* <div className="pagination">
 
-        {Array.from(
-          { length: totalPages },
-          (_, i) => (
 
-            <button
-              key={i}
-              onClick={() =>
-                setCurrentPage(i + 1)
-              }
-
-              className={
-                currentPage === i + 1
-                  ? "active"
-                  : ""
-              }
-            >
-              {i + 1}
-            </button>
-
-          )
-        )}
-                 </div> */}
 
    
         </section>
@@ -135,7 +113,7 @@ href={`/details/${post.id}`}             >
 
         <Link
           key={post.id}
-href={`/details/${post.id}`}             >
+href={`/detailss/${post.slug}`}             >
 
           <div className="divv">
 
@@ -148,33 +126,7 @@ href={`/details/${post.id}`}             >
         </Link>
 
       ))}
-    
- {/* <div className="pagination">
 
-        {Array.from(
-          { length: totalPages },
-          (_, i) => (
-
-            <button
-              key={i}
-              onClick={() =>
-                setCurrentPage(i + 1)
-              }
-
-              className={
-                currentPage === i + 1
-                  ? "active"
-                  : ""
-              }
-            >
-              {i + 1}
-            </button>
-
-          )
-        )}
-                 </div> */}
-
-   
         </section>
 
      
@@ -219,36 +171,3 @@ href={`/details/${post.id}`}             >
 }
 
 export default First;
-// import Link from "next/link";
-// import { newss } from "../data/newss";
-
-// import "./page.css";
-
-// function NewsPage() {
-//   return (
-//     <div>
-
-//       <h1>Articles</h1>
-
-//       {newss.map((post) => (
-
-//         <Link
-//           key={post.id}
-//             href={`/details/${newss.id}`}        >
-
-//           <div className="card">
-
-//             <h2>{post.title}</h2>
-
-//             <p>{post.desc}</p>
-
-//           </div>
-
-//         </Link>
-
-//       ))}
-
-//     </div>
-//   );
-// }
-// export default NewsPage;

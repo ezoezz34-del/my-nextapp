@@ -16,7 +16,7 @@ background-color: #03455ab1;
   color: rgb(126, 46, 46); 
 }
 .hero {
-  height: calc(130vh - 70px);
+max-height: calc(130vh - 70px);
 
   display: flex;
 flex-direction:column;
@@ -82,7 +82,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .more{
   /* background-color: #d61313; */
 justify-content: space-between;
-height: 15vh;
+min-height: 15vh;
   display: flex;
   padding: 6px;
 }
@@ -134,9 +134,9 @@ margin: 5px;
   transform: scale(1.05);
   background: #0ea5e9;
 }
-
+/* 
 .iconmenuo{    font-size: 20px;
-  /* position: relati; */
+  position: relati;
   cursor: pointer;
 }
 .iconmenuo:hover{
@@ -146,13 +146,14 @@ margin: 5px;
 }
 .menu{
     position: relative;
-}
+} */
 
 .setting{
 
     position: absolute;
 
-    top: 30px;   /* ينزل تحت البار */
+    top: 30px;   
+    /* ينزل تحت البار */
     right: 0;
 
     background: #0c0c13;
@@ -166,9 +167,9 @@ margin: 5px;
 }
 
 /* يظهر عند hover */
-.menu:hover .setting{
+/* .menu:hover .setting{
     display: flex;
-}
+} */
 /* div:hover{
   color: #0ea5e9;
 } */

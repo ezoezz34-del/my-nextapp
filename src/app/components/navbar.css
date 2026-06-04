@@ -38,7 +38,6 @@
   color: #38bdf8;
 }
 .active {
-  color: blue;
   font-weight: bold;
-  border-bottom: 2px solid rgb(255, 0, 0);
+  border-bottom: 2px solid rgb(82, 9, 240);
 }

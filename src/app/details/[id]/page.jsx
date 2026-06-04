@@ -17,8 +17,6 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-      // metadataBase: new URL("https://news-egypt.vercel.app"),
-
     title: post.title,
     description: post.desc,
     keywords: [
@@ -134,7 +132,7 @@ href={`/details/${post.id}`}             >
 
         <Link
           key={post.id}
-href={`/details/${post.id}`}             >
+href={`/detailss/${post.slug}`}             >
 
           <div className="divv">
             {post.image && (

@@ -49,11 +49,12 @@ export async function generateMetadata({ params }) {
 
 async function FmpostPage({ params }) {
 
-  const { id } = await params;
+  const { slug } = await params;
 
   const post = fmnews.find(
-    (item) => item.id == id
+    (item) => item.slug == slug
   );
+ 
 
   if (!post) {
     return <h1>Post not found</h1>;
@@ -135,7 +136,7 @@ href={`/details/${post.id}`}             >
 
         <Link
           key={post.id}
-href={`/details/${post.id}`}             >
+href={`/detailss/${post.slug}`}             >
 
           <div className="divv">
             {post.image && (

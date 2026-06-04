@@ -2,6 +2,7 @@
       {
         id: 1,
         title: "مباراة الاهلي اليوم",
+        slug :"مباراة-الاهلي-اليوم",
         desc: "تفاصيل مباراة الاهلي ضد الوداد",
         createdAt: new Date("2026-05-20"),
         image:"/images/images (1).jfif.webp",
@@ -10,6 +11,7 @@
       {
         id: 2,
         title: "برشلونة يفوز",
+        slug:"برشلونة-يفوز",
         desc: "برشلونة يفوز 3-0",
         createdAt: new Date("2026-05-25"),
                 image:"/images/mesi.webp",

@@ -23,7 +23,7 @@ background-color: #03455ab1;
   width: 100%;
   min-height: 110vh;
   color: blueviolet;
-  overflow: auto;
+  /* overflow: auto; */
   flex-direction: column;
  }
  .heroo{

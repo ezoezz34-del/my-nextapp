@@ -1,7 +1,11 @@
+"use client";
 import Link from "next/link";
 import "./navbar.css";
+import { usePathname } from "next/navigation";
 
  function Navbar() {
+    const pathname = usePathname();
+
   return (
     
        <nav className="navbar">
@@ -10,27 +14,35 @@ import "./navbar.css";
           News
         </div>
         <div className="left-links">
-     
-          <Link href="/">Home</Link>
+      <Link className={pathname === "/" ? "active" : ""} href="/">
+          Home
+        </Link>
 
-          <Link href="/about">About</Link>
+        <Link className={pathname === "/about" ? "active" : ""} href="/about">
+          About
+        </Link>
 
-          <Link href="/prvicy">Privacy Policy</Link>
-           <Link href="/contactus">Contact Us</Link>
+        <Link className={pathname === "/prvicy" ? "active" : ""} href="/prvicy">
+          Privacy Policy
+        </Link>
 
+        <Link
+          className={pathname === "/contactus" ? "active" : ""}
+          href="/contactus"
+        >
+          Contact Us
+        </Link>
 
-          <Link href="/news">فنون</Link>
+        <Link className={pathname === "/news" ? "active" : ""} href="/news">
+          فنون
+        </Link>
 
-          <Link href="/Articles">رياضه</Link>
-                    <Link href="/test">test</Link>
-
-       
-
-
-
-
-
-
+        <Link
+          className={pathname === "/Articles" ? "active" : ""}
+          href="/Articles"
+        >
+          رياضه
+        </Link>
         </div>
       </nav>
     

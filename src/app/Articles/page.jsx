@@ -8,6 +8,7 @@ import { newss } from "../data/newss";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Image from "next/image";
+import Search from "../components/search";
 
  function Article() {
  const sortedArticles = [...newss].sort(
@@ -42,6 +43,8 @@ import Image from "next/image";
   return (
     <div className="page">
 <Navbar/>
+<br />
+<Search/>
       <h3>اخبار الرياضه</h3>
 <div className="all">
  <section className="heroo">
