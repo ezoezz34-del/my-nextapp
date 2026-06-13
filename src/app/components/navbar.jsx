@@ -43,6 +43,13 @@ import { usePathname } from "next/navigation";
         >
           رياضه
         </Link>
+        
+        <Link
+          className={pathname === "/match" ? "active" : ""}
+          href="/match"
+        >
+          مباره كاس العالم
+        </Link>
         </div>
       </nav>
     

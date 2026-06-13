@@ -53,7 +53,7 @@ import Search from "../components/search";
 
         <Link
           key={post.id}
-href={`/details/${post.id}`}             >
+href={`/details/${post.slug}`}             >
 
           <div className="divv">
             {post.image && (

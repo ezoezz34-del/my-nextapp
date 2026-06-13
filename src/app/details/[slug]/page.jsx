@@ -1,33 +1,36 @@
-import "./page.css";
 import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
+import { fmnews } from "../../data/fmnews";
 import { newss } from "../../data/newss";
-import {fmnews  } from "../../data/fmnews";
 import Search from "../../components/search";
+
+import "./page.css";
 import Link from "next/link";
 import Image from "next/image";
 export async function generateMetadata({ params }) {
-  const { id } = await params;
+  const { slug} = await params;
 
-  const post = newss.find((item) => item.id == id);
+  const post = newss.find((item) => item.slug == slug);
 
   if (!post) {
     return {
+
       title: "Post Not Found",
       description: "The requested article could not be found.",
     };
   }
 
   return {
+      // metadataBase: new URL("https://news-egypt.vercel.app"),
+
     title: post.title,
     description: post.desc,
     keywords: [
       post.title,
-      "Football",
-      "Sports News",
-      "Premier League",
-      "Champions League",
-      "Egypt News",
+      "showtime",
+      "الفن News",
+      "كل جديد هنا ",
+      "مصر فن و اخبار مهمه",
       "Latest News",
     ],
     openGraph: {
@@ -48,11 +51,12 @@ export async function generateMetadata({ params }) {
 
 async function PostPage({ params }) {
 
-  const { id } = await params;
+  const { slug } = await params;
 
   const post = newss.find(
-    (item) => item.id == id
+    (item) => item.slug == slug
   );
+ 
 
   if (!post) {
     return <h1>Post not found</h1>;
@@ -71,11 +75,11 @@ async function PostPage({ params }) {
 
           <h1 className="ti"> المقالات المقترحه</h1>
 
-     {fmnews.map((post) => (
+      {newss.map((post) => (
 
         <Link
           key={post.id}
-href={`/detailss/${post.slug}`}             >
+href={`/details/${post.slug}`}             >
 
           <div className="divv">
             {post.image && (
@@ -132,11 +136,11 @@ href={`/detailss/${post.slug}`}             >
     <h1 className="titlebar"> المقالات ذات صله</h1>
     <div className="bar-bottom">
 
-      {newss.map((post) => (
+      {fmnews.map((post) => (
 
         <Link
           key={post.id}
-href={`/details/${post.id}`}             >
+href={`/detailss/${post.slug}`}             >
 
           <div className="divv">
             {post.image && (
@@ -174,3 +178,5 @@ href={`/details/${post.id}`}             >
 }
 
 export default PostPage;
+
+

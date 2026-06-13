@@ -8,9 +8,9 @@ import "./page.css";
 import Link from "next/link";
 import Image from "next/image";
 export async function generateMetadata({ params }) {
-  const { id } = await params;
+  const { slug} = await params;
 
-  const post = fmnews.find((item) => item.id == id);
+  const post = fmnews.find((item) => item.slug == slug);
 
   if (!post) {
     return {
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
   return {
       // metadataBase: new URL("https://news-egypt.vercel.app"),
 
-    title: "News ngom fm",
+    title: post.title,
     description: post.desc,
     keywords: [
       post.title,
@@ -79,7 +79,7 @@ async function FmpostPage({ params }) {
 
         <Link
           key={post.id}
-href={`/details/${post.id}`}             >
+href={`/details/${post.slug}`}             >
 
           <div className="divv">
             {post.image && (
