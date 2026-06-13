@@ -92,10 +92,11 @@ export const fmnews = [
   {
     id: 10,
     slug: "greatest-movie-villains",
-    title: "أشهر الأشرار في تاريخ السينما",
+    title: "فيلم «برشامة».. نجاح جماهيري واسع وجدل مستمر",
     category: "Movies",
     author: "Ezz News",
     date: "2026-05-25",
+    image:"",
     desc: "استطاع العديد من الأشرار ترك بصمة قوية في ذاكرة المشاهدين وأصبحوا جزءًا من ثقافة السينما."
   },
 

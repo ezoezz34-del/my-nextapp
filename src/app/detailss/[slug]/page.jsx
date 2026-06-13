@@ -2,6 +2,8 @@ import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
 import { fmnews } from "../../data/fmnews";
 import { newss } from "../../data/newss";
+import Search from "../../components/search";
+
 import "./page.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,7 +23,7 @@ export async function generateMetadata({ params }) {
   return {
       // metadataBase: new URL("https://news-egypt.vercel.app"),
 
-    title: post.title,
+    title: "News ngom fm",
     description: post.desc,
     keywords: [
       post.title,
@@ -65,6 +67,8 @@ async function FmpostPage({ params }) {
     <div className="page">
     <Navbar/>
     <br />
+              <Search />
+
     <div  className="content">
 
       <aside className="sidbar">

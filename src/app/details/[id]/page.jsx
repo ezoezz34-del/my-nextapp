@@ -2,6 +2,8 @@ import "./page.css";
 import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
 import { newss } from "../../data/newss";
+import {fmnews  } from "../../data/fmnews";
+import Search from "../../components/search";
 import Link from "next/link";
 import Image from "next/image";
 export async function generateMetadata({ params }) {
@@ -61,17 +63,19 @@ async function PostPage({ params }) {
     <div className="page">
     <Navbar/>
     <br />
+              <Search />
+
     <div  className="content">
 
       <aside className="sidbar">
 
           <h1 className="ti"> المقالات المقترحه</h1>
 
-      {newss.map((post) => (
+     {fmnews.map((post) => (
 
         <Link
           key={post.id}
-href={`/details/${post.id}`}             >
+href={`/detailss/${post.slug}`}             >
 
           <div className="divv">
             {post.image && (
@@ -132,7 +136,7 @@ href={`/details/${post.id}`}             >
 
         <Link
           key={post.id}
-href={`/detailss/${post.slug}`}             >
+href={`/details/${post.id}`}             >
 
           <div className="divv">
             {post.image && (
