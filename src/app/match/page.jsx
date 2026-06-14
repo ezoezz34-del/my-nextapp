@@ -168,7 +168,7 @@ function Match() {
 
       <div className="table">
 
-        <Link  className="maz" href="">
+        <Link  className="maz" href="/live">
           <div className="matches">
             <DE style={{ width: "60px" }} />
             <span className="score">0</span>
