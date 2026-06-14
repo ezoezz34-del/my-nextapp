@@ -30,10 +30,16 @@ background-color: #03455ab1;
     justify-content: space-around;
     height: 70px;
     padding: 3px;
-      /* text-decoration: none; */
+  transition: all 0.3s ease;
+      margin-bottom: 25PX;
 
 
  }
+ .score{
+  display:inline-block;
+  font-size:50px;
+  font-weight:bold;
+}
  .matdel{
     /* background-color: aliceblue; */
 display: flex;
@@ -56,3 +62,11 @@ text-decoration: none;
           text-decoration: none;
 
  }
+
+
+.maz:hover .matches {
+  background: #737e90;
+  transform: translateY(-2px);
+  border-left: 4px solid #38bdf8;
+  color: #faf7f7;
+}

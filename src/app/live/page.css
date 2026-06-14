@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+ .page{
+  padding: 3px;
+background-color: #03455ab1;
+ min-height: 100vh;
+  width: 100%;
+  overflow: auto;
+  flex-direction: row;
+  /* display: flex; */
+  /* position: absolute; */
+ }
+ .cont{
+    min-height: 90vh;
+    padding: 10px;
+    margin: 5px;
+ }
+.cont p {
+    color:black;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: right;
+}
+ .stream{
+ min-height: 50vh;
+    background-color: rgb(16, 16, 17);
+  box-shadow: 5px 5px 25px rgb(71, 79, 94);
+
+
+ }
+ h4{
+    text-align: right;
+    font-size: 40px;
+    padding-right: 25px;
+    color: #000;
+ }

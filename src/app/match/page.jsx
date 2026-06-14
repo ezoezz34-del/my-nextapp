@@ -140,14 +140,20 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Link from "next/link";
 
-import { BR } from "country-flag-icons/react/3x2";
-import { MA } from "country-flag-icons/react/3x2";
-import { HT } from "country-flag-icons/react/3x2";
-import { CH } from "country-flag-icons/react/3x2";
-import { GB_SCT } from "country-flag-icons/react/3x2";
-import { QA } from "country-flag-icons/react/3x2";
-import { AU } from "country-flag-icons/react/3x2";
-import { TR } from "country-flag-icons/react/3x2";
+import {
+  DE, // ألمانيا
+  CW, // كوراساو
+  JP, // اليابان
+  NL, // هولندا
+  EC, // الإكوادور
+  CI, // كوت ديفوار
+  TN, // تونس
+  SE, // السويد
+  CV, // الرأس الأخضر
+  ES, // إسبانيا
+  EG, // مصر
+  BE  // بلجيكا
+} from "country-flag-icons/react/3x2";
 
 function Match() {
   return (
@@ -162,65 +168,103 @@ function Match() {
 
       <div className="table">
 
-        <Link  className="maz" href="/details/switzerland-haiti">
+        <Link  className="maz" href="">
           <div className="matches">
-            <CH style={{ width: "60px" }} />
+            <DE style={{ width: "60px" }} />
+            <span className="score">0</span>
 
             <div className="matdel">
               <h5>لم تبدأ بعد</h5>
-              <h5>10:00</h5>
-              <h5>كأس العالم - المجموعة ب</h5>
+              <h5>08:00 pm</h5>
+              <h5>كأس العالم - المجموعة ه</h5>
             </div>
+            <span className="score">0</span>
 
-            <HT style={{ width: "60px" }} />
+
+
+
+            <CW style={{ width: "60px" }} />
           </div>
         </Link>
 
-        <br />
 
-        <Link className="maz" href="/details/brazil-morocco">
+        <Link className="maz" href="">
           <div className="matches">
-            <BR style={{ width: "60px" }} />
+            <JP style={{ width: "60px" }} />
+            <span className="score">0</span>
 
             <div className="matdel">
               <h5>لم تبدأ بعد</h5>
-              <h5>1:00</h5>
-              <h5>كأس العالم - المجموعة ب</h5>
+              <h5>11:00 pm</h5>
+              <h5>كأس العالم - المجموعة و</h5>
             </div>
+            <span className="score">0</span>
 
-            <MA style={{ width: "60px" }} />
+            <NL style={{ width: "60px" }} />
           </div>
         </Link>
 
-        <br />
 
-        <Link className="maz" href="/news">
+        <Link className="maz" href="">
           <div className="matches">
-            <GB_SCT style={{ width: "60px" }} />
+            <EC style={{ width: "60px" }} />
+            <span className="score">0</span>
 
             <div className="matdel">
               <h5>لم تبدأ بعد</h5>
-              <h5>4:00</h5>
-              <h5>كأس العالم - المجموعة ب</h5>
+              <h5>02:00 am</h5>
+              <h5>كأس العالم - المجموعة ه</h5>
             </div>
+            <span className="score">0</span>
 
-            <QA style={{ width: "60px" }} />
+            <CI style={{ width: "60px" }} />
           </div>
         </Link>
 
-        <br />
 
-        <Link className="maz" href="/details/australia-turkey">
+        <Link className="maz" href="">
           <div className="matches">
-            <AU style={{ width: "60px" }} />
+            <TN style={{ width: "60px" }} />
+            <span className="score">0</span>
 
             <div className="matdel">
               <h5>لم تبدأ بعد</h5>
-              <h5>10:00</h5>
-              <h5>كأس العالم - المجموعة ب</h5>
+              <h5>05:00 am</h5>
+              <h5>كأس العالم - المجموعة و</h5>
             </div>
+            <span className="score">0</span>
 
-            <TR style={{ width: "60px" }} />
+            <SE style={{ width: "60px" }} />
+          </div>
+        </Link>
+          <Link className="maz" href="">
+          <div className="matches">
+            <CV style={{ width: "60px" }} />
+            <span className="score">0</span>
+
+            <div className="matdel">
+              <h5>لم تبدأ بعد</h5>
+              <h5>07:00 pm</h5>
+              <h5>كأس العالم - المجموعة ح</h5>
+            </div>
+            <span className="score">0</span>
+
+            <ES style={{ width: "60px" }} />
+          </div>
+        </Link>
+          <Link className="maz" href="">
+          <div className="matches">
+            <EG style={{ width: "60px" }} />
+            <span className="score">0</span>
+
+            <div className="matdel">
+              <h5>لم تبدأ بعد</h5>
+              <h5>10:00 pm</h5>
+              <h5>كأس العالم - المجموعة ز</h5>
+            </div>
+            <span className="score">0</span>
+
+            <BE style={{ width: "60px" }} />
           </div>
         </Link>
 

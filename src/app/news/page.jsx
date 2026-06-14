@@ -2,6 +2,7 @@
 "use client";
 import "./page.css";
 import Search from "../components/search";
+import Image from "next/image";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -56,6 +57,15 @@ import Footer from "../components/footer";
 href={`/detailss/${post.slug}`}             >
 
           <div className="divv">
+              <Image
+                  src={post.image}
+                  alt={post.title}
+                  width={600}
+                  height={338}
+                  sizes="(max-width: 768px) 100vw, 600px"
+                  quality={75}
+                  loading="eager"
+                />
 
 <br />
             <h2>{post.title}</h2>

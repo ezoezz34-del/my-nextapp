@@ -32,6 +32,7 @@ export async function generateMetadata({ params }) {
       "كل جديد هنا ",
       "مصر فن و اخبار مهمه",
       "Latest News",
+      post.keywords
     ],
     openGraph: {
       title: post.title,

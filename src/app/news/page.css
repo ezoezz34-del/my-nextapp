@@ -99,13 +99,16 @@ margin-top: 10px;
 .divv{
   border: #a3a3eb 2px solid;
     /* height: calc(5vh - 70px); */
-    /* overflow: hidden; */
+    overflow: hidden;
     width: 210px;
     height: 210px;
 margin: 10px;
   box-shadow: 5px 5px 25px rgb(71, 79, 94);
   flex-direction: column;
-  
+    /* overflow: auto; */
+
+
+  /* flex-wrap: wrap; */
 }
 .pagination {
   display: flex;

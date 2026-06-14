@@ -16,7 +16,8 @@ export const metadata = {
       <br />
       <div className="page2">
         <div className="moa">
-          {/* <iframe allow="autoplay; encrypted-media"  class="" height="620px" id="streamFrame" rameborder="0" src="https://11.yallashoot1.cc/albaplayer/ch1/?serv=0" width="100%"></iframe> */}
+          {/* <iframe allow="autoplay;  encrypted-media"  class="" height="620px" id="streamFrame" rameborder="0" src="https://11.yallashoot1.cc/albaplayer/ch1/?serv=0" width="100%"></iframe> */}
+{/* <iframe allow="autoplay; encrypted-media" allowfullscreen="true" class="" height="620px" id="streamFrame" rameborder="0" src="https://11.yallashoot1.cc/albaplayer/ch1/?serv=0" width="100%"></iframe> */}
 
          
    <h1 >

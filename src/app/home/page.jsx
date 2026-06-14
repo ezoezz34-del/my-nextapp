@@ -68,7 +68,7 @@ function First() {
       {currentArticles.map((post) => (
 
         <Link
-          key={post.id}
+          key={post.slug}
 href={`/details/${post.slug}`}             >
 
           <div className="divv">
@@ -116,6 +116,15 @@ href={`/details/${post.slug}`}             >
 href={`/detailss/${post.slug}`}             >
 
           <div className="divv">
+                <Image
+                              src={post.image}
+                              alt={post.title}
+                              width={600}
+                              height={338}
+                              sizes="(max-width: 768px) 100vw, 600px"
+                              quality={75}
+                              loading="eager"
+                            />
 
             <h2>{post.title}</h2>
 
