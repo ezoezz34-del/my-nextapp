@@ -28,7 +28,7 @@ background-color: #03455ab1;
     background-color: rgba(255, 255, 255, 0.655);
     display: flex;
     justify-content: space-around;
-    height: 70px;
+   min-height: 70px;
     padding: 3px;
   transition: all 0.3s ease;
       margin-bottom: 25PX;
@@ -49,7 +49,6 @@ flex-direction: column;
  padding: 4px;
  /* overflow: auto; */
 
-  
  }
 .matdel h5{
 color: #131212;
@@ -58,10 +57,24 @@ text-decoration: none;
 
 
  }
+ .matdel h4{
+color: #6d1297;
+font-size: 30px;
+text-decoration: none;
+margin: 6px;
+ }
+  .matdel h3{
+color: #070707;
+font-size: 40px;
+text-decoration: none;
+margin: 6px;
+ }
  .maz{
           text-decoration: none;
+          height: 30vh;
 
  }
+
 
 
 .maz:hover .matches {

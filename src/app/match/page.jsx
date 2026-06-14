@@ -168,50 +168,43 @@ function Match() {
 
       <div className="table">
 
-        <Link  className="maz" href="/live">
           <div className="matches">
             <DE style={{ width: "60px" }} />
-            <span className="score">0</span>
+            <span className="score">7</span>
 
             <div className="matdel">
-              <h5> تبدا الان</h5>
-              <h5>08:00 pm</h5>
-              <h5>كأس العالم - المجموعة ه</h5>
+<h3>انتهت المباره</h3>
+              {/* <h5>08:00 pm</h5>
+              <h5>كأس العالم - المجموعة ه</h5> */}
             </div>
-            <span className="score">0</span>
-
+            <span className="score">1</span>
 
 
 
             <CW style={{ width: "60px" }} />
           </div>
-        </Link>
 
 
-        <Link className="maz" href="">
           <div className="matches">
             <JP style={{ width: "60px" }} />
-            <span className="score">0</span>
+            <span className="score">2</span>
 
             <div className="matdel">
-              <h5>لم تبدأ بعد</h5>
-              <h5>11:00 pm</h5>
-              <h5>كأس العالم - المجموعة و</h5>
+<h3 >انتهت المباره</h3>
+           
             </div>
-            <span className="score">0</span>
+            <span className="score">2</span>
 
             <NL style={{ width: "60px" }} />
           </div>
-        </Link>
 
-
-        <Link className="maz" href="">
+        <Link className="maz" href="/live">
           <div className="matches">
             <EC style={{ width: "60px" }} />
             <span className="score">0</span>
 
             <div className="matdel">
-              <h5>لم تبدأ بعد</h5>
+              <h4>تبدا المباره</h4>
               <h5>02:00 am</h5>
               <h5>كأس العالم - المجموعة ه</h5>
             </div>
