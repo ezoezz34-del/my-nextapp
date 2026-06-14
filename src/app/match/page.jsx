@@ -174,7 +174,7 @@ function Match() {
             <span className="score">0</span>
 
             <div className="matdel">
-              <h5>لم تبدأ بعد</h5>
+              <h5> تبدا الان</h5>
               <h5>08:00 pm</h5>
               <h5>كأس العالم - المجموعة ه</h5>
             </div>
