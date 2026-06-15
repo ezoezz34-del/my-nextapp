@@ -173,7 +173,7 @@ function Match() {
             <span className="score">7</span>
 
             <div className="matdel">
-<h3>انتهت المباره</h3>
+<h3 >انتهت المباراة  </h3>
               {/* <h5>08:00 pm</h5>
               <h5>كأس العالم - المجموعة ه</h5> */}
             </div>
@@ -190,7 +190,7 @@ function Match() {
             <span className="score">2</span>
 
             <div className="matdel">
-<h3 >انتهت المباره</h3>
+<h3 >انتهت المباراة  </h3>
            
             </div>
             <span className="score">2</span>
@@ -203,7 +203,7 @@ function Match() {
             <span className="score">0</span>
 
             <div className="matdel">
-<h3 >انتهت المباره</h3>
+<h3 >انتهت المباراة  </h3>
              
             </div>
             <span className="score">1</span>
@@ -215,14 +215,14 @@ function Match() {
         <Link className="maz" href="/live">
           <div className="matches">
             <TN style={{ width: "60px" }} />
-            <span className="score">0</span>
+            <span className="score">1</span>
 
             <div className="matdel">
-              <h4>تبدا المباره</h4>
+              <h4> بدا المباراة </h4>
               <h5>05:00 am</h5>
               <h5>كأس العالم - المجموعة و</h5>
             </div>
-            <span className="score">0</span>
+            <span className="score">2</span>
 
             <SE style={{ width: "60px" }} />
           </div>
