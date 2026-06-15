@@ -13,8 +13,7 @@ background-color: #03455ab1;
   width: 100%;
   overflow: auto;
   flex-direction: row;
-  /* display: flex; */
-  /* position: absolute; */
+
  }
  .cont{
     min-height: 90vh;
@@ -40,3 +39,32 @@ background-color: #03455ab1;
     padding-right: 25px;
     color: #000;
  }
+ @media (max-width: 768px) {
+
+  .page {
+    padding: 10px;
+  }
+
+  .cont {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .cont p {
+    font-size: 18px;
+    text-align: right;
+    line-height: 1.8;
+  }
+
+  h4 {
+    font-size: 24px;
+    padding-right: 10px;
+    text-align: right;
+  }
+
+  .stream {
+    min-height: 30vh;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+}

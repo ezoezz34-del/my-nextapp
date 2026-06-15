@@ -83,3 +83,44 @@ margin: 6px;
   border-left: 4px solid #38bdf8;
   color: #faf7f7;
 }
+@media (max-width: 768px) {
+
+  .page {
+    padding: 10px;
+  }
+
+  .matches {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .matdel {
+    width: 100%;
+  }
+
+  .matdel h3 {
+    font-size: 24px;
+    margin: 3px;
+    text-align: center;
+  }
+
+  .matdel h4 {
+    font-size: 22px;
+    margin: 3px;
+  }
+
+  .matdel h5 {
+    font-size: 16px;
+  }
+
+  .score {
+    font-size: 32px;
+  }
+
+  .maz {
+    height: auto;
+  }
+}

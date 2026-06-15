@@ -222,7 +222,7 @@ function Match() {
               <h5>05:00 am</h5>
               <h5>كأس العالم - المجموعة و</h5>
             </div>
-            <span className="score">2</span>
+            <span className="score">3</span>
 
             <SE style={{ width: "60px" }} />
           </div>
