@@ -198,20 +198,18 @@ function Match() {
             <NL style={{ width: "60px" }} />
           </div>
 
-        <Link className="maz" href="">
           <div className="matches">
             <EC style={{ width: "60px" }} />
             <span className="score">0</span>
 
             <div className="matdel">
 <h3 >انتهت المباره</h3>
-          
+             
             </div>
             <span className="score">1</span>
 
             <CI style={{ width: "60px" }} />
           </div>
-        </Link>
 
 
         <Link className="maz" href="/live">
@@ -220,7 +218,7 @@ function Match() {
             <span className="score">0</span>
 
             <div className="matdel">
-              <h5>لم تبدأ بعد</h5>
+              <h4>تبدا المباره</h4>
               <h5>05:00 am</h5>
               <h5>كأس العالم - المجموعة و</h5>
             </div>
