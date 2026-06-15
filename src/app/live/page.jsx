@@ -33,6 +33,8 @@ import Footer from "../components/footer";
       "تابع جميع مباريات كأس العالم 2026 لحظة بلحظة مع النتائج المباشرة وجدول المباريات وترتيب المجموعات.",
     type: "website",
     locale: "ar_EG",
+     image:"/images/شعار_كأس_العالم_2026..webp",
+
   },
 
   twitter: {
