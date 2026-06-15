@@ -212,22 +212,23 @@ function Match() {
           </div>
 
 
-        <Link className="maz" href="/live">
+        <Link className="maz" href="">
           <div className="matches">
             <TN style={{ width: "60px" }} />
             <span className="score">1</span>
 
             <div className="matdel">
-              <h4> بدا المباراة </h4>
-              <h5>05:00 am</h5>
-              <h5>كأس العالم - المجموعة و</h5>
+              <h3 >انتهت المباراة  </h3>
+
+              {/* <h5>05:00 am</h5>
+              <h5>كأس العالم - المجموعة و</h5> */}
             </div>
             <span className="score">3</span>
 
             <SE style={{ width: "60px" }} />
           </div>
         </Link>
-          <Link className="maz" href="">
+          <Link className="maz" href="/live">
           <div className="matches">
             <CV style={{ width: "60px" }} />
             <span className="score">0</span>
