@@ -60,7 +60,8 @@ export default function Today() {
           <span className="score">0</span>
 
           <div className="matdel">
-            <h5>لم تبدأ بعد</h5>
+            {/* <h5>لم تبدأ بعد</h5> */}
+            <h4>تبداالمباراة</h4>
             <h5>07:00 pm</h5>
             <h5>كأس العالم - المجموعة ح</h5>
           </div>
@@ -69,6 +70,7 @@ export default function Today() {
           <ES style={{ width: "60px" }} />
         </div>
       </Link>
+      <Link className="maz" href="/live">
 
       <div className="matches">
         <EG style={{ width: "60px" }} />
@@ -83,6 +85,7 @@ export default function Today() {
         <span className="score">0</span>
         <BE style={{ width: "60px" }} />
       </div>
+      </Link>
 
     </div>
   );
