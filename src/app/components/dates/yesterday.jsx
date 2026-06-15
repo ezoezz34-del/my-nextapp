@@ -1,109 +1,91 @@
+
+
+import Link from "next/link";
 import {
-
-  IQ, // العراق
-  NO, // النرويج
-
-  AR, // الأرجنتين
-  DZ, // الجزائر
-
-  AT, // النمسا
-  JO, // الأردن
-
-  PT, // البرتغال
-  CD, // الكونغو الديمقراطية
-
-  GB_ENG, // إنجلترا
-  HR // كرواتيا
+  DE,
+  CW,
+  JP,
+  NL,
+  EC,
+  CI,
+  TN,
+  SE,
+  CV,
+  ES,
+  EG,
+  BE
 } from "country-flag-icons/react/3x2";
- import Link from "next/link";
 
-export default function Yesterday() {
+export default function Today() {
   return (
     <div className="table">
-        <Link className="maz" href="">
 
       <div className="matches">
-        <IQ style={{ width: "60px" }} />
-        <span className="score">0</span>
+        <DE style={{ width: "60px" }} />
+        <span className="score">7</span>
 
         <div className="matdel">
-   <h5>لم تبدأ بعد</h5>
-          <h5>01:00 Am</h5>
-         <h5>كأس العالم - المجموعة ط</h5>        </div>
-
-        <span className="score">0</span>
-        < NO style={{ width: "60px" }} />
-      </div>
-              </Link>
-
-        <Link className="maz" href="">
-
-      <div className="matches">
-
-        < AR style={{ width: "60px" }} />
-        <span className="score">0</span>
-
-        <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>04:00 Am</h5>
-         <h5>كأس العالم - المجموعة ي</h5>
+          <h3>انتهت المباراة</h3>
         </div>
 
-        <span className="score">0</span>
-        <DZ style={{ width: "60px" }} />
+        <span className="score">1</span>
+        <CW style={{ width: "60px" }} />
       </div>
-        </Link>
-        <Link className="maz" href="">
 
       <div className="matches">
+        <JP style={{ width: "60px" }} />
+        <span className="score">2</span>
 
-        < AT style={{ width: "60px" }} />
+        <div className="matdel">
+          <h3>انتهت المباراة</h3>
+        </div>
+
+        <span className="score">2</span>
+        <NL style={{ width: "60px" }} />
+      </div>
+
+      <div className="matches">
+        <EC style={{ width: "60px" }} />
         <span className="score">0</span>
 
         <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>07:00 Am</h5>
-         <h5>كأس العالم - المجموعة ي</h5>
+          <h3>انتهت المباراة</h3>
         </div>
 
-        <span className="score">0</span>
-        < JO style={{ width: "60px" }} />
+        <span className="score">1</span>
+        <CI style={{ width: "60px" }} />
       </div>
-        </Link>
-           <Link className="maz" href="">
+
+        <div className="matches">
+          <CV style={{ width: "60px" }} />
+          <span className="score">0</span>
+
+          <div className="matdel">
+            {/* <h5>لم تبدأ بعد</h5> */}
+          <h3>انتهت المباراة</h3>
+           
+          </div>
+
+          <span className="score">0</span>
+          <ES style={{ width: "60px" }} />
+        </div>
+      
+      <Link className="maz" href="/live">
 
       <div className="matches">
-
-        <  PT style={{ width: "60px" }} />
-        <span className="score">0</span>
-
-        <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>08:00 Pm</h5>
-         <h5>كأس العالم - المجموعة ك</h5>
-        </div>
-
-        <span className="score">0</span>
-        <  CD style={{ width: "60px" }} />
-      </div>
-        </Link>
-           <Link className="maz" href="">
-
-      <div className="matches">
-
-        <   GB_ENG style={{ width: "60px" }} />
-        <span className="score">0</span>
+        <EG style={{ width: "60px" }} />
+        <span className="score">1</span>
 
         <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 Pm</h5>
-         <h5>كأس العالم - المجموعة ل </h5>
+            <h4>تبداالمباراة</h4>
+          <h5>10:00 pm</h5>
+          <h5>كأس العالم - المجموعة ز</h5>
         </div>
 
-        <span className="score">0</span>
-        <   HR style={{ width: "60px" }} />
+        <span className="score">1</span>
+        <BE style={{ width: "60px" }} />
       </div>
-        </Link>
+      </Link>
 
     </div>
   );
