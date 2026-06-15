@@ -77,9 +77,8 @@ export default function Today() {
         <span className="score">1</span>
 
         <div className="matdel">
-            <h4>تبداالمباراة</h4>
-          <h5>10:00 pm</h5>
-          <h5>كأس العالم - المجموعة ز</h5>
+          <h3>انتهت المباراة</h3>
+       
         </div>
 
         <span className="score">1</span>
