@@ -12,7 +12,7 @@
  .page{
   padding: 3px;
 background-color: #03455ab1;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   overflow: auto;
   flex-direction: row;
@@ -55,10 +55,7 @@ margin-top: 10px;
 margin: 10px;
   box-shadow: 5px 5px 25px rgb(71, 79, 94);
   flex-direction: column;
-    /* overflow: auto; */
-
-
-  /* flex-wrap: wrap; */
+  
 }
 .pagination {
   display: flex;
@@ -101,4 +98,91 @@ h3{
   text-align: right;
   margin: 5px;
   
+}
+
+@media screen and (max-width: 768px) {
+
+  .page {
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .all {
+    min-height: auto;
+  }
+
+  .heroo {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .divv {
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+  }
+
+  .divv img {
+    height: 95px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .pagination {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .pagination button {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+
+/* ================= PHONES ================= */
+
+@media screen and (max-width: 480px) {
+
+  .page {
+    padding: 2px;
+  }
+
+  .heroo {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .divv {
+    width: 46%;
+    min-width: 150px;
+    height: 185px;
+    margin: 4px;
+  }
+
+  .divv img {
+    height: 85px;
+    padding: 3px;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin: 3px;
+  }
+
+  .pagination {
+    width: 100%;
+    gap: 5px;
+  }
+
+  .pagination button {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+    border-radius: 6px;
+  }
 }

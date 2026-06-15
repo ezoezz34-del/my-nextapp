@@ -123,3 +123,125 @@ align-items: center;
   color: #000;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/* 
+/* ================= TABLET ================= */
+
+@media screen and (max-width: 768px) {
+
+  .content {
+    flex-direction: column;
+  }
+
+  .sidbar {
+    width: 100%;
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .divv {
+    width: 180px;
+    min-width: 180px;
+    height: 190px;
+    margin: 5px;
+  }
+
+  .divv img {
+    height: 95px;
+  }
+
+  .detal {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .detal h1 {
+    font-size: 38px;
+  }
+
+  .detal p {
+    font-size: 20px;
+  }
+
+  .titlebar {
+    font-size: 28px;
+  }
+
+  .bar-bottom {
+    height: auto;
+    min-height: 220px;
+  }
+}
+
+
+/* ================= MOBILE ================= */
+
+/* @media screen and (max-width: 480px) {
+
+  .page {
+    padding: 2px;
+    overflow-x: hidden;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .sidbar {
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 8px;
+  }
+
+  .divv {
+    width: 150px;
+    min-width: 150px;
+    height: 170px;
+    margin: 4px;
+  }
+
+  .divv img {
+    height: 80px;
+    padding: 3px;
+  }
+
+  .detal {
+    width: 100%;
+    padding: 2px;
+  }
+
+  .detal h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .detal p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .detal img {
+    width: 100%;
+    height: auto;
+  }
+
+  .titlebar {
+    font-size: 22px;
+    margin: 4px;
+  }
+
+  .bar-bottom {
+    height: auto;
+    min-height: 180px;
+    gap: 8px;
+  }
+
+  .ti {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+} */ 

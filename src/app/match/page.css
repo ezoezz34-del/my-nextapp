@@ -83,6 +83,25 @@ margin: 6px;
   border-left: 4px solid #38bdf8;
   color: #faf7f7;
 }
+.days {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.days button {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.days button.active {
+  background: #00aaff;
+  color: #fff;
+}
 @media (max-width: 768px) {
 
   .page {

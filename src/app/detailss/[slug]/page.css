@@ -11,7 +11,6 @@
 background-color: #03455ab1;
 padding: 3px;
 overflow: auto;
-    /* height: 100vh; */
 }
  .content{
     width: 100%;
@@ -20,7 +19,6 @@ overflow: auto;
     padding: 4px;
     flex-direction: row;
     display: flex;
-    /* border: 2px soild red; */
 } 
 .sidbar{
     width: 20%;
@@ -29,24 +27,19 @@ overflow: auto;
     display: flex;
     flex-direction: column;
     padding: 2px;
-    /* justify-content: center;
-    align-items: center; */
+ 
 }
- /* .sidbar,.bar-bottom::-webkit-scrollbar {
-    display: none;
-} */
+
 .sidbar,.bar-bottom {
     scrollbar-width: none;
 }
 
-/* IE و Edge القديم */
 .sidbar,.bar-bottom {
     -ms-overflow-style: none;
 }
 
 .divv{
   border: #a3a3eb 2px solid;
-    /* height: calc(5vh - 70px); */
     overflow: hidden;
     width: 210px;
     height: 210px;
@@ -70,7 +63,6 @@ text-align: center;
       text-align: right;
       padding: 5px;
   flex: 1;
-    /* background-color: rgb(255, 0, 0); */
     overflow: auto;
 }
 .detal p{
@@ -93,16 +85,13 @@ text-align: center;
 }
 
 .ti{
-/* position: absolute;   */
 text-align: right;
 color: #000;
 margin-right:20px ;
 margin-bottom: 10px;
-/* display: flex; */
 }
 
 .bar-bottom{
-        /* background-color: rgb(0, 255, 13); */
 height: 250px;
 width: 100%;
 padding: 3px;
@@ -110,7 +99,6 @@ padding: 3px;
     display: flex;
     flex-direction: row;
     padding: 2px;
-/* justify-content: space-between; */
 align-items: center;
 }
 .titlebar{
@@ -119,4 +107,133 @@ align-items: center;
   font-size: 40px;
   color: #000;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ==================== MOBILE ==================== */
+
+@media screen and (max-width: 768px) {
+
+  .page{
+    padding: 5px;
+    overflow-x: hidden;
+  }
+
+  .content{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Sidebar تتحول لسلايدر أفقي */
+
+  .sidbar{
+    width: 100%;
+    max-height: none;
+
+    flex-direction: row;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    gap: 10px;
+
+    padding-bottom: 10px;
+
+    scrollbar-width: none;
+  }
+
+  .sidbar::-webkit-scrollbar{
+    display:none;
+  }
+
+  .divv{
+    width: 180px;
+    min-width: 180px;
+    height: 185px;
+
+    margin: 0;
+  }
+
+  .divv img{
+    height: 95px;
+  }
+
+  .detal{
+    width: 100%;
+    padding: 5px;
+  }
+
+  .detal h1{
+    font-size: 38px;
+    line-height: 1.4;
+  }
+
+  .detal p{
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  .detal img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .titlebar{
+    font-size: 28px;
+  }
+
+  .bar-bottom{
+    height: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+
+    scrollbar-width: none;
+  }
+
+  .bar-bottom::-webkit-scrollbar{
+    display:none;
+  }
+}
+
+
+/* ==================== SMALL PHONES ==================== */
+
+@media screen and (max-width: 480px){
+
+  .page{
+    padding: 3px;
+  }
+
+  .divv{
+    width: 150px;
+    min-width: 150px;
+    height: 170px;
+  }
+
+  .divv img{
+    height: 80px;
+  }
+
+  .detal h1{
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .detal p{
+    font-size: 17px;
+    line-height: 1.9;
+  }
+
+  .titlebar{
+    font-size: 22px;
+    margin-right: 4px;
+  }
+
+  .ti{
+    margin-right: 5px;
+  }
+
+  .bar-bottom{
+    min-height: 180px;
+  }
 }
