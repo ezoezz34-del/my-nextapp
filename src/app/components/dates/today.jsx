@@ -46,7 +46,7 @@ export default function Tomorrow() {
             <span className="score">0</span>
 
             <div className="matdel">
-               <h5>لم تبدأ بعد</h5>
+               <h4>  تبدا المباراه </h4>
           <h5>10:00 Pm</h5>
          <h5>كأس العالم - المجموعة ط</h5>
             </div>
