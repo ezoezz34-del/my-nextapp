@@ -1,7 +1,7 @@
 // import Image from "next/image";
 // import styles from "./page.module.css";
 
-import First from "./home/page.jsx";
+import Firstt from "./home/page.jsx";
 
 
 // export default function Home() {
@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <main>
 
-      <First/>
+      <Firstt/>
 
 
     </main>

@@ -3,10 +3,54 @@ import { Analytics } from '@vercel/analytics/react';
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
-// export const metadata = {
-//   title: "first project",
-//   description: "Modern News Website",
-// };
+ export const metadata = {
+  title:
+    "م أخبار المنتخبات والتغطية الكاملة للبطولر HD بدون إعلانات مزعجة | جدول المباريات والنتائج",
+    
+  description:
+    "شاهد مباريات كأس العالم 2026 بث مباشر بجودة HD وبدون إعلانات مزعجة، مع جدول المباريات، النتائج المباشرة، ترتيب المجموعات، أخبار المنتخبات والتغطية الكاملة للبطولة.",
+
+  keywords: [
+    "كأس العالم 2026",
+    "مشاهدة كأس العالم 2026",
+    "بث مباشر كأس العالم",
+    "مباريات كأس العالم اليوم",
+    "جدول مباريات كأس العالم 2026",
+    "نتائج كأس العالم 2026",
+    "منتخب مصر كأس العالم",
+    "World Cup 2026",
+    "FIFA World Cup 2026",
+    "بث مباشر مباريات اليوم",
+    "مباريات كرة القدم",
+        "مباريات كرة القدم اخبار",
+
+    "مشاهدة المباريات بدون إعلانات"
+  ],
+
+  openGraph: {
+    title:
+      "مشاهدة مباريات كأس العالم 2026 بث مباشر HD بدون إعلانات مزعجة",
+    description:
+      "تابع جميع مباريات كأس العالم 2026 لحظة بلحظة مع النتائج المباشرة وجدول المباريات وترتيب المجموعات.",
+    type: "website",
+    locale: "ar_EG",
+     image:"/images/شعار_كأس_العالم_2026..webp",
+
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "مشاهدة مباريات كأس العالم 2026 بث مباشر HD بدون إعلانات مزعجة",
+    description:
+      "جدول المباريات والنتائج المباشرة وأخبار كأس العالم 2026.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
