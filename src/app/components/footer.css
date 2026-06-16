@@ -5,3 +5,10 @@
     font-size: 20px;
     text-align: right;
 }
+@media (max-width: 768px) {
+  .footer {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+}
