@@ -28,22 +28,19 @@ export default function Tomorrow() {
         <UY style={{ width: "60px" }} />
       </div>
         
-              <Link className="maz" href="/live">
           <div className="matches">
             <IR style={{ width: "60px" }} />
-            <span className="score">0</span>
+            <span className="score">2</span>
 
             <div className="matdel">
-                <h5>لم تبدأ بعد</h5>
-          <h5>04:00 Am</h5>
-         <h5>كأس العالم - المجموعة ز</h5>
+          <h3>انتهت المباراة</h3>
+         
             </div>
-            <span className="score">0</span>
+            <span className="score">2</span>
 
             <NZ style={{ width: "60px" }} />
           </div>
-        </Link>
-                     <Link className="maz" href="">
+                     <Link className="maz" href="/live">
           <div className="matches">
             <FR style={{ width: "60px" }} />
             <span className="score">0</span>

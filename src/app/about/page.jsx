@@ -5,7 +5,9 @@ import "./page.css";
 
 export const metadata = {
   title: "about page",
-  description: "news everywhere any where",
+  description: `  مرحبًا بك في موقعنا، منصتك الموثوقة لمتابعة أحدث الأخبار الرياضية والفنية أولًا بأول.
+      نحن نهدف إلى تقديم محتوى متجدد يجمع بين الدقة والسرعة والبساطة، ليكون المستخدم دائمًا
+      على اطلاع بكل ما يحدث في العالم من حوله في مكان واحد.`,
 };
 
  function About() {
