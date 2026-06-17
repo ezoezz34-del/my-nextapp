@@ -2,6 +2,7 @@ import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import Script from "next/script";
 
  export const metadata = {
   title:
@@ -57,12 +58,26 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body >
 
-
         {children}
         <Analytics />
 
-
+        <Script
+          id="monetag-onclick"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function () {
+                var s = document.createElement('script');
+                s.dataset.zone = '11159669';
+                s.src = 'https://al5sm.com/tag.min.js';
+                document.body.appendChild(s);
+              })();
+            `,
+          }}
+        />
       </body>
+   
+
     </html>
   );
 }
