@@ -56,6 +56,20 @@ import Script from "next/script";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Script
+          id="monetag-popunder"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function () {
+                var s = document.createElement('script');
+                s.dataset.zone = '11159801';
+                s.src = 'https://nap5k.com/tag.min.js';
+                document.body.appendChild(s);
+              })();
+            `,
+          }}
+        />
       <body >
 
         {children}
