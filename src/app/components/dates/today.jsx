@@ -92,7 +92,7 @@ export default function Yesterday() {
           
             </div>
 
-        <span className="score">3</span>
+        <span className="score">4</span>
         < NO style={{ width: "60px" }} />
       </div>
               
