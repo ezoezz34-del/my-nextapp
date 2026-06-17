@@ -82,23 +82,22 @@ import {
 export default function Yesterday() {
   return (
     <div className="table">
-        <Link className="maz" href="./live">
 
       <div className="matches">
         <IQ style={{ width: "60px" }} />
-        <span className="score">0</span>
+        <span className="score">1</span>
 
         <div className="matdel">
-   <h5>لم تبدأ بعد</h5>
-          <h5>01:00 Am</h5>
-         <h5>كأس العالم - المجموعة ط</h5>        </div>
+          <h3>انتهت المباراة</h3>
+          
+            </div>
 
-        <span className="score">0</span>
+        <span className="score">3</span>
         < NO style={{ width: "60px" }} />
       </div>
-              </Link>
+              
 
-        <Link className="maz" href="">
+        <Link className="maz" href="./live">
 
       <div className="matches">
 
