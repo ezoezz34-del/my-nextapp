@@ -125,7 +125,6 @@ export default function Yesterday() {
         <span className="score">1</span>
         < JO style={{ width: "60px" }} />
       </div>
-           <Link className="maz" href="./live">
 
       <div className="matches">
 
@@ -133,16 +132,14 @@ export default function Yesterday() {
         <span className="score">1</span>
 
         <div className="matdel">
-          <h4> تبدأ المباراه</h4>
-          <h5>08:00 Pm</h5>
-         <h5>كأس العالم - المجموعة ك</h5>
+          <h3>انتهت المباراة</h3>
+         
         </div>
 
         <span className="score">1</span>
         <  CD style={{ width: "60px" }} />
       </div>
-        </Link>
-           <Link className="maz" href="">
+           <Link className="maz" href="./live">
 
       <div className="matches">
 
@@ -150,7 +147,7 @@ export default function Yesterday() {
         <span className="score">0</span>
 
         <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
+          <h4> تبدأ المباراه</h4>
           <h5>11:00 Pm</h5>
          <h5>كأس العالم - المجموعة ل </h5>
         </div>
