@@ -105,31 +105,27 @@ export default function Yesterday() {
 
         <div className="matdel">
           <h3>انتهت المباراة</h3>
-          <h5>04:00 Am</h5>
-         <h5>كأس العالم - المجموعة ي</h5>
+       
         </div>
 
         <span className="score">0</span>
         <DZ style={{ width: "60px" }} />
       </div>
-        <Link className="maz" href="./live">
 
       <div className="matches">
 
         < AT style={{ width: "60px" }} />
-        <span className="score">0</span>
+        <span className="score">3</span>
 
         <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>07:00 Am</h5>
-         <h5>كأس العالم - المجموعة ي</h5>
+          <h3>انتهت المباراة</h3>
+         
         </div>
 
-        <span className="score">0</span>
+        <span className="score">1</span>
         < JO style={{ width: "60px" }} />
       </div>
-        </Link>
-           <Link className="maz" href="">
+           <Link className="maz" href="./live">
 
       <div className="matches">
 

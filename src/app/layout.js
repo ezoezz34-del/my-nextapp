@@ -73,6 +73,18 @@ export default function RootLayout({ children }) {
       <body >
 
         {children}
+          <Script id="monetag-vignette" strategy="afterInteractive">
+        {`
+          (function(s){
+            s.dataset.zone='11159994',
+            s.src='https://n6wxm.com/vignette.min.js'
+          })
+          ([document.documentElement, document.body]
+          .filter(Boolean)
+          .pop()
+          .appendChild(document.createElement('script')))
+        `}
+      </Script>
         <Analytics />
 
         <Script
