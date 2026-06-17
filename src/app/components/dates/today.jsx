@@ -130,15 +130,15 @@ export default function Yesterday() {
       <div className="matches">
 
         <  PT style={{ width: "60px" }} />
-        <span className="score">0</span>
+        <span className="score">1</span>
 
         <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
+          <h4> تبدأ المباراه</h4>
           <h5>08:00 Pm</h5>
          <h5>كأس العالم - المجموعة ك</h5>
         </div>
 
-        <span className="score">0</span>
+        <span className="score">1</span>
         <  CD style={{ width: "60px" }} />
       </div>
         </Link>

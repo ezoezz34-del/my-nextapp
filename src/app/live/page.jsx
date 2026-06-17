@@ -33,7 +33,7 @@ import Footer from "../components/footer";
       "تابع جميع مباريات كأس العالم 2026 لحظة بلحظة مع النتائج المباشرة وجدول المباريات وترتيب المجموعات.",
     type: "website",
     locale: "ar_EG",
-     image:"/images/شعار_كأس_العالم_2026..webp",
+           image:"/public/images/شعار_كأس_العالم_2026..webp",
 
   },
 
@@ -43,7 +43,7 @@ import Footer from "../components/footer";
       "مشاهدة مباريات كأس العالم 2026 بث مباشر HD بدون إعلانات مزعجة",
     description:
       "جدول المباريات والنتائج المباشرة وأخبار كأس العالم 2026.",
-           image:"/images/شعار_كأس_العالم_2026..webp",
+           image:"/public/images/شعار_كأس_العالم_2026..webp",
 
   },
 
