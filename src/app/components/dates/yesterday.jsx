@@ -1,149 +1,158 @@
-
-
-// import Link from "next/link";
 // import {
-//   DE,
-//   CW,
-//   JP,
-//   NL,
-//   EC,
-//   CI,
-//   TN,
-//   SE,
-//   CV,
-//   ES,
-//   EG,
-//   BE
-// } from "country-flag-icons/react/3x2";
+//   SA, // السعودية
+//   UY, // أوروجواي
 
-// export default function Today() {
+//   IR, // إيران
+//   NZ, // نيوزيلندا
+
+//   FR, // فرنسا
+//   SN, // السنغال
+
+
+// } from "country-flag-icons/react/3x2";
+//  import Link from "next/link";
+// export default function Tomorrow() {
 //   return (
 //     <div className="table">
 
 //       <div className="matches">
-//         <DE style={{ width: "60px" }} />
-//         <span className="score">7</span>
+
+//         <SA style={{ width: "60px" }} />
+//         <span className="score">1</span>
 
 //         <div className="matdel">
 //           <h3>انتهت المباراة</h3>
 //         </div>
 
 //         <span className="score">1</span>
-//         <CW style={{ width: "60px" }} />
+//         <UY style={{ width: "60px" }} />
 //       </div>
+        
+//           <div className="matches">
+//             <IR style={{ width: "60px" }} />
+//             <span className="score">2</span>
 
-//       <div className="matches">
-//         <JP style={{ width: "60px" }} />
-//         <span className="score">2</span>
-
-//         <div className="matdel">
+//             <div className="matdel">
 //           <h3>انتهت المباراة</h3>
-//         </div>
+         
+//             </div>
+//             <span className="score">2</span>
 
-//         <span className="score">2</span>
-//         <NL style={{ width: "60px" }} />
-//       </div>
-
-//       <div className="matches">
-//         <EC style={{ width: "60px" }} />
-//         <span className="score">0</span>
-
-//         <div className="matdel">
-//           <h3>انتهت المباراة</h3>
-//         </div>
-
-//         <span className="score">1</span>
-//         <CI style={{ width: "60px" }} />
-//       </div>
-
-//         <div className="matches">
-//           <CV style={{ width: "60px" }} />
-//           <span className="score">0</span>
-
-//           <div className="matdel">
-//             {/* <h5>لم تبدأ بعد</h5> */}
-//           <h3>انتهت المباراة</h3>
-           
+//             <NZ style={{ width: "60px" }} />
 //           </div>
+//                      <Link className="maz" href="/live">
+//           <div className="matches">
+//             <FR style={{ width: "60px" }} />
+//             <span className="score">3</span>
 
-//           <span className="score">0</span>
-//           <ES style={{ width: "60px" }} />
-//         </div>
-      
-//       <Link className="maz" href="/live">
-
-//       <div className="matches">
-//         <EG style={{ width: "60px" }} />
-//         <span className="score">1</span>
-
-//         <div className="matdel">
+//             <div className="matdel">
 //           <h3>انتهت المباراة</h3>
-       
-//         </div>
+      
+//             </div>
+//             <span className="score">1</span>
 
-//         <span className="score">1</span>
-//         <BE style={{ width: "60px" }} />
-//       </div>
-//       </Link>
+//             <SN style={{ width: "60px" }} />
+//           </div>
+//         </Link>
+        
 
 //     </div>
 //   );
 // }
+
 import {
-  SA, // السعودية
-  UY, // أوروجواي
 
-  IR, // إيران
-  NZ, // نيوزيلندا
+  IQ, // العراق
+  NO, // النرويج
 
-  FR, // فرنسا
-  SN, // السنغال
+  AR, // الأرجنتين
+  DZ, // الجزائر
 
+  AT, // النمسا
+  JO, // الأردن
 
+  PT, // البرتغال
+  CD, // الكونغو الديمقراطية
+
+  GB_ENG, // إنجلترا
+  HR // كرواتيا
 } from "country-flag-icons/react/3x2";
  import Link from "next/link";
-export default function Tomorrow() {
+
+export default function Yesterday() {
   return (
     <div className="table">
 
       <div className="matches">
-
-        <SA style={{ width: "60px" }} />
+        <IQ style={{ width: "60px" }} />
         <span className="score">1</span>
 
         <div className="matdel">
           <h3>انتهت المباراة</h3>
+          
+            </div>
+
+        <span className="score">4</span>
+        < NO style={{ width: "60px" }} />
+      </div>
+              
+
+
+      <div className="matches">
+
+        < AR style={{ width: "60px" }} />
+        <span className="score">3</span>
+
+        <div className="matdel">
+          <h3>انتهت المباراة</h3>
+       
+        </div>
+
+        <span className="score">0</span>
+        <DZ style={{ width: "60px" }} />
+      </div>
+
+      <div className="matches">
+
+        < AT style={{ width: "60px" }} />
+        <span className="score">3</span>
+
+        <div className="matdel">
+          <h3>انتهت المباراة</h3>
+         
         </div>
 
         <span className="score">1</span>
-        <UY style={{ width: "60px" }} />
+        < JO style={{ width: "60px" }} />
       </div>
-        
-          <div className="matches">
-            <IR style={{ width: "60px" }} />
-            <span className="score">2</span>
 
-            <div className="matdel">
+      <div className="matches">
+
+        <  PT style={{ width: "60px" }} />
+        <span className="score">1</span>
+
+        <div className="matdel">
           <h3>انتهت المباراة</h3>
          
-            </div>
-            <span className="score">2</span>
+        </div>
 
-            <NZ style={{ width: "60px" }} />
-          </div>
-          <div className="matches">
-            <FR style={{ width: "60px" }} />
-            <span className="score">3</span>
+        <span className="score">1</span>
+        <  CD style={{ width: "60px" }} />
+      </div>
 
-            <div className="matdel">
+      <div className="matches">
+
+        <   GB_ENG style={{ width: "60px" }} />
+        <span className="score">4</span>
+
+        <div className="matdel">
           <h3>انتهت المباراة</h3>
-      
-            </div>
-            <span className="score">1</span>
+       
+        </div>
 
-            <SN style={{ width: "60px" }} />
-          </div>
-        
+        <span className="score">2</span>
+        <   HR style={{ width: "60px" }} />
+      </div>
 
     </div>
   );
