@@ -77,6 +77,7 @@ export default function RootLayout({ children }) {
           data-zone="250975"
           data-cfasync="false"
         />
+        <script src="https://quge5.com/88/tag.min.js" data-zone="250968" async data-cfasync="false"></script>
         {children}
           <Script id="monetag-vignette" strategy="afterInteractive">
         {`
