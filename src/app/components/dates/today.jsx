@@ -31,12 +31,11 @@ export default function Yesterday() {
         < PA style={{ width: "60px" }} />
       </div>
 
-        <Link className="maz" href="./live">
 
       <div className="matches">
 
         < UZ style={{ width: "60px" }} />
-        <span className="score">0</span>
+        <span className="score">1</span>
 
         <div className="matdel">
           <h5> تبدأ المباراه</h5>
@@ -44,11 +43,10 @@ export default function Yesterday() {
          <h5>كأس العالم - المجموعة ك</h5>
         </div>
 
-        <span className="score">0</span>
+        <span className="score">3</span>
         <CO style={{ width: "60px" }} />
       </div>
-        </Link>
-        <Link className="maz" href="">
+        <Link className="maz" href="./live">
 
       <div className="matches">
 
