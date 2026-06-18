@@ -71,7 +71,12 @@ export default function RootLayout({ children }) {
           }}
         />
       <body >
-
+    <Script
+          src="https://quge5.com/88/tag.min.js"
+          strategy="afterInteractive"
+          data-zone="250975"
+          data-cfasync="false"
+        />
         {children}
           <Script id="monetag-vignette" strategy="afterInteractive">
         {`

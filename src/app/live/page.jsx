@@ -2,7 +2,13 @@ import "./page.css";
 import Search from "../components/search";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+ import Script from "next/script";
+
+
+
+        
  
+
 
  export const metadata = {
   title:
@@ -55,7 +61,14 @@ import Footer from "../components/footer";
 
 function Live() {
   return (
+
     <div className="page">
+      <Script
+          src="https://quge5.com/88/tag.min.js"
+          strategy="afterInteractive"
+          data-zone="250975"
+          data-cfasync="false"
+        />
       <Navbar />
 
       <br />
