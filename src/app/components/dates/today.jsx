@@ -17,23 +17,21 @@ ZA,  // جنوب أفريقيا
 export default function Yesterday() {
   return (
     <div className="table">
-        <Link className="maz" href="./live">
 
       <div className="matches">
         <GH style={{ width: "60px" }} />
-        <span className="score">0</span>
+        <span className="score">1</span>
 
         <div className="matdel">
-   <h5> تبدأ المباراه</h5>
-          <h5>02:00 Am</h5>
-         <h5>كأس العالم - المجموعة ل</h5>        </div>
+          <h3>انتهت المباراة</h3>
+        
+           </div>
 
         <span className="score">0</span>
         < PA style={{ width: "60px" }} />
       </div>
-              </Link>
 
-        <Link className="maz" href="">
+        <Link className="maz" href="./live">
 
       <div className="matches">
 
