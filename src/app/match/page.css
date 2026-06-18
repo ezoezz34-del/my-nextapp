@@ -89,6 +89,25 @@ margin: 6px;
   gap: 10px;
   margin: 15px 0;
 }
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 120px;
+  margin-top: 10PX;
+}
+.teamName {
+  color: rgb(14, 1, 1);
+  font-size: 18px;
+  font-weight: 500;
+}
+.flag {
+  width: 40px;
+  height: auto;
+  /* border-radius: 50%; */
+}
+
 
 .days button {
   border: none;

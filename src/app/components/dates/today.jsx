@@ -1,80 +1,76 @@
 
 import {
-  GH,       // غانا
-PA  ,   
-  UZ ,  // أوزبكستان
- CO,     // كولومبيا
+ QA, // قطر
+CA, // كندا
 
-  CZ,     
-ZA,  // جنوب أفريقيا
+KR, // كوريا الجنوبية
+MX, // المكسيك
 
-  CH,  // سويسرا
-  BA       // البوسنة والهرسك
+AU, // أستراليا
+US, // الولايات المتحدة
 
+MA, // المغرب
+// GB-SCT ,// اسكتلندا (مش دولة مستقلة)
+BR, // البرازيل
+
+HT // هايتي
 } from "country-flag-icons/react/3x2";
  import Link from "next/link";
 
 export default function Yesterday() {
   return (
     <div className="table">
+        <Link className="maz" href="./live">
 
       <div className="matches">
-        <GH style={{ width: "60px" }} />
-        <span className="score">1</span>
-
-        <div className="matdel">
-          <h3>انتهت المباراة</h3>
-        
-           </div>
-
-        <span className="score">0</span>
-        < PA style={{ width: "60px" }} />
-      </div>
-
-
-      <div className="matches">
-
-        < UZ style={{ width: "60px" }} />
-        <span className="score">1</span>
-
-        <div className="matdel">
-      
-        </div>
-
-        <span className="score">3</span>
-        <CO style={{ width: "60px" }} />
-      </div>
-
-      <div className="matches">
-
-        < CZ style={{ width: "60px" }} />
-        <span className="score">1</span>
-
-        <div className="matdel">
-                 <h3>انتهت المباراة</h3>
-
-        </div>
-
-        <span className="score">1</span>
-        < ZA style={{ width: "60px" }} />
-      </div>
-           <Link className="maz" href="./live">
-
-      <div className="matches">
-
-        <  CH style={{ width: "60px" }} />
+        < QA  style={{ width: "60px" }} />
         <span className="score">0</span>
 
         <div className="matdel">
-          <h4> تبدأ المباراه</h4>
-          <h5>10:00 Pm</h5>
-         <h5>كأس العالم - المجموعة ب</h5>
+   <h5>لم تبدأ بعد</h5>
+          <h5>01:00 Am</h5>
+         <h5>كأس العالم - المجموعة ب</h5>        </div>
+
+        <span className="score">0</span>
+        < CA style={{ width: "60px" }} />
+      </div>
+              </Link>
+
+        <Link className="maz" href="">
+
+      <div className="matches">
+
+        < KR  style={{ width: "60px" }} />
+        <span className="score">0</span>
+
+        <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>04:00 Am</h5>
+         <h5>كأس العالم - المجموعة ا</h5>
         </div>
 
         <span className="score">0</span>
-        <  BA style={{ width: "60px" }} />
+        <MX style={{ width: "60px" }} />
       </div>
         </Link>
+        <Link className="maz" href="">
+
+      <div className="matches">
+
+        < AU style={{ width: "60px" }} />
+        <span className="score">0</span>
+
+        <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>10:00 Am</h5>
+         <h5>كأس العالم - المجموعة د</h5>
+        </div>
+
+        <span className="score">0</span>
+        < US style={{ width: "60px" }} />
+      </div>
+        </Link>
+   
            
 
     </div>
