@@ -61,7 +61,7 @@ export default function Yesterday() {
          <h5>كأس العالم - المجموعة د</h5>
         </div>
 
-        <span className="score">0</span>
+        <span className="score">2</span>
         < US style={{ width: "60px" }} />
       </div>
         </Link>
