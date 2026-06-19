@@ -1,16 +1,19 @@
 
 import {
-  GH,       // غانا
-PA  ,   
-  UZ ,  // أوزبكستان
- CO,     // كولومبيا
+ QA, // قطر
+CA, // كندا
 
-  CZ,     
-ZA,  // جنوب أفريقيا
+KR, // كوريا الجنوبية
+MX, // المكسيك
 
-  CH,  // سويسرا
-  BA       // البوسنة والهرسك
+AU, // أستراليا
+US, // الولايات المتحدة
 
+MA, // المغرب
+// GB-SCT ,// اسكتلندا (مش دولة مستقلة)
+BR, // البرازيل
+
+HT // هايتي
 } from "country-flag-icons/react/3x2";
  import Link from "next/link";
 
@@ -19,63 +22,47 @@ export default function Yesterday() {
     <div className="table">
 
       <div className="matches">
-        <GH style={{ width: "60px" }} />
-        <span className="score">1</span>
-
-        <div className="matdel">
-          <h3>انتهت المباراة</h3>
-        
-           </div>
-
+        < QA  style={{ width: "60px" }} />
         <span className="score">0</span>
-        < PA style={{ width: "60px" }} />
-      </div>
-
-
-      <div className="matches">
-
-        < UZ style={{ width: "60px" }} />
-        <span className="score">1</span>
-
-        <div className="matdel">
-                <h3>انتهت المباراة</h3>
-
-        </div>
-
-        <span className="score">3</span>
-        <CO style={{ width: "60px" }} />
-      </div>
-
-      <div className="matches">
-
-        < CZ style={{ width: "60px" }} />
-        <span className="score">1</span>
-
-        <div className="matdel">
-                 <h3>انتهت المباراة</h3>
-
-        </div>
-
-        <span className="score">1</span>
-        < ZA style={{ width: "60px" }} />
-      </div>
-           <Link className="maz" href="./live">
-
-      <div className="matches">
-
-        <  CH style={{ width: "60px" }} />
-        <span className="score">4</span>
 
         <div className="matdel">
                  <h3>انتهت المباراة</h3>
         
+          </div>
+
+        <span className="score">6</span>
+        < CA style={{ width: "60px" }} />
+      </div>
+
+
+      <div className="matches">
+
+        < KR  style={{ width: "60px" }} />
+        <span className="score">0</span>
+
+        <div className="matdel">
+                 <h3>انتهت المباراة</h3>
+         
         </div>
 
         <span className="score">1</span>
-        <  BA style={{ width: "60px" }} />
-
+        <MX style={{ width: "60px" }} />
       </div>
-        </Link>
+
+      <div className="matches">
+
+        < AU style={{ width: "60px" }} />
+        <span className="score">0</span>
+
+        <div className="matdel">
+                 <h3>انتهت المباراة</h3>
+       
+        </div>
+
+        <span className="score">2</span>
+        < US style={{ width: "60px" }} />
+      </div>
+   
            
 
     </div>
