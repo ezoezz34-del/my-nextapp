@@ -34,7 +34,6 @@ export default function Yesterday() {
         < CA style={{ width: "60px" }} />
       </div>
 
-        <Link className="maz" href="./live">
 
       <div className="matches">
 
@@ -42,16 +41,14 @@ export default function Yesterday() {
         <span className="score">0</span>
 
         <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>04:00 Am</h5>
-         <h5>كأس العالم - المجموعة ا</h5>
+                 <h3>انتهت المباراة</h3>
+         
         </div>
 
-        <span className="score">0</span>
+        <span className="score">1</span>
         <MX style={{ width: "60px" }} />
       </div>
-        </Link>
-        <Link className="maz" href="">
+        <Link className="maz" href="./live">
 
       <div className="matches">
 
