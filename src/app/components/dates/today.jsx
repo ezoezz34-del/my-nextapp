@@ -73,7 +73,7 @@ export default function Yesterday() {
          <h5>كأس العالم - المجموعة د</h5>
         </div>
 
-        <span className="score">0</span>
+        <span className="score">1</span>
 <div className="team">
     <PY className="flag" />
     <span className="teamName">باراغواي</span>
@@ -81,7 +81,7 @@ export default function Yesterday() {
         </Link>
 
 
-          <Link className="maz" href="">
+          <Link className="maz" href="./live">
 
       <div className="matches">
 
