@@ -111,8 +111,9 @@ function Live() {
   height="620"
   id="streamFrame"
   frameBorder="0"
-  src="https://24.streemach.site/albaplayer/live3/?serv=2"
-    // src="https://11.yallashoot1.cc/albaplayer/ch1/?serv=0"
+  // src="https://24.streemach.site/albaplayer/live3/?serv=5"
+    // src="https://11.yallashoot1.cc/albaplayer/ch1/?serv=1"
+  src="https://22.streemach.site/albaplayer/live2/?serv=2"
 
 
   width="100%"
