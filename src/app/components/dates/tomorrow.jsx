@@ -21,7 +21,7 @@ import {
   BE, // بلجيكا
   IR, // إيران
 } from "country-flag-icons/react/3x2";
-import Image from "next/image";
+// import Image from "next/image";
  import Link from "next/link";
 
 export default function Yesterday() {
@@ -37,8 +37,8 @@ export default function Yesterday() {
 
         <div className="matdel">
    <h5>لم تبدأ بعد</h5>
-          <h5>01:00 Am</h5>
-         <h5>كأس العالم - المجموعة ج</h5>        </div>
+          <h5>03:00 Am</h5>
+         <h5>كأس العالم - المجموعة ه</h5>        </div>
 
         <span className="score">0</span>
 <div className="team">
@@ -60,8 +60,8 @@ export default function Yesterday() {
 
         <div className="matdel">
           <h5>لم تبدأ بعد</h5>
-          <h5>03:30 Am</h5>
-         <h5>كأس العالم - المجموعة ج</h5>
+          <h5>07:00 Am</h5>
+         <h5>كأس العالم - المجموعة و</h5>
         </div>
         <span className="score">0</span>
 <div className="team">
@@ -80,8 +80,8 @@ export default function Yesterday() {
    <span className="score">0</span>
  <div className="matdel">
           <h5>لم تبدأ بعد</h5>
-          <h5>06:00 Am</h5>
-         <h5>كأس العالم - المجموعة د</h5>
+          <h5>07:00 pm</h5>
+         <h5>كأس العالم - المجموعة ح</h5>
         </div>
 
         <span className="score">0</span>
@@ -103,8 +103,8 @@ export default function Yesterday() {
 
         <div className="matdel">
           <h5>لم تبدأ بعد</h5>
-          <h5>08:00 Pm</h5>
-         <h5>كأس العالم - المجموعة و</h5>
+          <h5>10:00 Pm</h5>
+         <h5>كأس العالم - المجموعة ز</h5>
         </div>
 
         <span className="score">0</span>
