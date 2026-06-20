@@ -1,14 +1,25 @@
 
 import {
-  MA, // المغرب
-  BR, // البرازيل
-  HT, // هايتي
-  TR, // تركيا
-  PY, // باراغواي
-  NL, // هولندا
-  SE, // السويد
-  DE, // ألمانيا
-  CI, // كوت ديفوار
+  EG, // مصر
+  NZ, // نيوزيلندا
+  UY, // أوروجواي
+  CV, // الرأس الأخضر
+  AR, // الأرجنتين
+  AT, // النمسا
+  FR, // فرنسا
+  IQ, // العراق
+  NO, // النرويج
+  SN, // السنغال
+  JO, // الأردن
+  DZ, // الجزائر
+  EC, // الإكوادور
+  CW, // كوراساو
+  TN, // تونس
+  JP, // اليابان
+  ES, // إسبانيا
+  SA, // السعودية
+  BE, // بلجيكا
+  IR, // إيران
 } from "country-flag-icons/react/3x2";
 import Image from "next/image";
  import Link from "next/link";
@@ -20,8 +31,8 @@ export default function Yesterday() {
 
       <div className="matches">
 <div className="team">
-    <MA className="flag" />
-    <span className="teamName">المغرب</span>
+    <EC className="flag" />
+    <span className="teamName">الإكوادور</span>
   </div>        <span className="score">0</span>
 
         <div className="matdel">
@@ -31,13 +42,9 @@ export default function Yesterday() {
 
         <span className="score">0</span>
 <div className="team">
-  <Image
-  src="/scotland.png"
-  alt="Scotland"
-  width={40}
-  height={40}
-/>
- <span className="teamName">اسكتلندا</span>
+    <CW className="flag" />
+
+ <span className="teamName">كوراساو</span>
   </div>
 </div>
               </Link>
@@ -47,8 +54,8 @@ export default function Yesterday() {
       <div className="matches">
 
 <div className="team">
-    <BR className="flag" />
-    <span className="teamName">البرازيل</span>
+    <TN className="flag" />
+    <span className="teamName">تونس</span>
   </div>        <span className="score">0</span>
 
         <div className="matdel">
@@ -58,8 +65,8 @@ export default function Yesterday() {
         </div>
         <span className="score">0</span>
 <div className="team">
-    <HT className="flag" />
-    <span className="teamName">هايتي</span>
+    <JP className="flag" />
+    <span className="teamName">اليابان</span>
   </div>     
    </div>
         </Link>
@@ -67,8 +74,8 @@ export default function Yesterday() {
 
       <div className="matches">
 <div className="team">
-    <TR className="flag" />
-    <span className="teamName">تركيا</span>
+    <ES className="flag" />
+    <span className="teamName">إسبانيا</span>
   </div>       
    <span className="score">0</span>
  <div className="matdel">
@@ -79,8 +86,8 @@ export default function Yesterday() {
 
         <span className="score">0</span>
 <div className="team">
-    <PY className="flag" />
-    <span className="teamName">باراغواي</span>
+    <SA className="flag" />
+    <span className="teamName">السعودية</span>
   </div>      </div>
         </Link>
 
@@ -90,8 +97,8 @@ export default function Yesterday() {
       <div className="matches">
 
 <div className="team">
-    <NL className="flag" />
-    <span className="teamName">هولندا</span>
+    <BE className="flag" />
+    <span className="teamName">بلجيكا</span>
   </div>        <span className="score">0</span>
 
         <div className="matdel">
@@ -102,37 +109,10 @@ export default function Yesterday() {
 
         <span className="score">0</span>
 <div className="team">
-    <SE className="flag" />
-    <span className="teamName">السويد</span>
+    <IR className="flag" />
+    <span className="teamName">إيران</span>
   </div>      </div>
         </Link>
-          <Link className="maz" href="">
-
-      <div className="matches">
-
- <div className="team">
-    <DE className="flag" />
-    <span className="teamName">ألمانيا</span>
-  </div>      
-    <span className="score">0</span>
-
-        <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 Pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
-        </div>
-
-        <span className="score">0</span>
- <div className="team">
-    <CI className="flag" />
-    <span className="teamName">كوت ديفوار</span>
-  </div>      </div>
-        </Link>
-
-=
-     
-   
-           
 
     </div>
   );
