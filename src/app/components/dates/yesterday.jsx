@@ -1,20 +1,16 @@
 
 import {
- QA, // قطر
-CA, // كندا
-
-KR, // كوريا الجنوبية
-MX, // المكسيك
-
-AU, // أستراليا
-US, // الولايات المتحدة
-
-MA, // المغرب
-// GB-SCT ,// اسكتلندا (مش دولة مستقلة)
-BR, // البرازيل
-
-HT // هايتي
+  MA, // المغرب
+  BR, // البرازيل
+  HT, // هايتي
+  TR, // تركيا
+  PY, // باراغواي
+  NL, // هولندا
+  SE, // السويد
+  DE, // ألمانيا
+  CI, // كوت ديفوار
 } from "country-flag-icons/react/3x2";
+import Image from "next/image";
  import Link from "next/link";
 
 export default function Yesterday() {
@@ -22,46 +18,107 @@ export default function Yesterday() {
     <div className="table">
 
       <div className="matches">
-        < QA  style={{ width: "60px" }} />
-        <span className="score">0</span>
+<div className="team">
+    <MA className="flag" />
+    <span className="teamName">المغرب</span>
+  </div>        <span className="score">1</span>
 
         <div className="matdel">
                  <h3>انتهت المباراة</h3>
-        
-          </div>
+             
+         </div>
 
-        <span className="score">6</span>
-        < CA style={{ width: "60px" }} />
-      </div>
+        <span className="score">0</span>
+<div className="team">
+  <Image
+  src="/scotland.png"
+  alt="Scotland"
+  width={40}
+  height={40}
+/>
+ <span className="teamName">اسكتلندا</span>
+  </div>
+</div>
+              
 
 
       <div className="matches">
 
-        < KR  style={{ width: "60px" }} />
-        <span className="score">0</span>
+<div className="team">
+    <BR className="flag" />
+    <span className="teamName">البرازيل</span>
+  </div>        <span className="score">3</span>
 
         <div className="matdel">
-                 <h3>انتهت المباراة</h3>
+                 <h3>انتهت المباراة</h3>         
+        </div>
+        <span className="score">0</span>
+<div className="team">
+    <HT className="flag" />
+    <span className="teamName">هايتي</span>
+  </div>     
+   </div>
+        
+
+      <div className="matches">
+<div className="team">
+    <TR className="flag" />
+    <span className="teamName">تركيا</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+                 <h3>انتهت المباراة</h3>         
          
         </div>
 
         <span className="score">1</span>
-        <MX style={{ width: "60px" }} />
-      </div>
+<div className="team">
+    <PY className="flag" />
+    <span className="teamName">باراغواي</span>
+  </div>      </div>
+        
+
+
 
       <div className="matches">
 
-        < AU style={{ width: "60px" }} />
-        <span className="score">0</span>
+<div className="team">
+    <NL className="flag" />
+    <span className="teamName">هولندا</span>
+  </div>        <span className="score">5</span>
 
         <div className="matdel">
-                 <h3>انتهت المباراة</h3>
-       
+                 <h3>انتهت المباراة</h3>         
+         
         </div>
 
-        <span className="score">2</span>
-        < US style={{ width: "60px" }} />
-      </div>
+        <span className="score">1</span>
+<div className="team">
+    <SE className="flag" />
+    <span className="teamName">السويد</span>
+  </div>      </div>
+
+      <div className="matches">
+
+ <div className="team">
+    <DE className="flag" />
+    <span className="teamName">ألمانيا</span>
+  </div>      
+    <span className="score">2</span>
+
+        <div className="matdel">
+                 <h3>انتهت المباراة</h3>         
+        
+        </div>
+
+        <span className="score">1</span>
+ <div className="team">
+    <CI className="flag" />
+    <span className="teamName">كوت ديفوار</span>
+  </div>      </div>
+
+=
+     
    
            
 
