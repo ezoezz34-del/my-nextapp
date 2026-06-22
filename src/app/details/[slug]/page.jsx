@@ -71,7 +71,6 @@ async function PostPage({ params }) {
           <h1 className="ti"> المقالات المقترحه</h1>
 
     <div  className="content">
-          {/* <h1 className="ti"> المقالات المقترحه</h1> */}
 
       <aside className="sidbar">
 
