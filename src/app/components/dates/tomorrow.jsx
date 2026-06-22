@@ -1,25 +1,21 @@
-
 import {
-  EG, // مصر
-  NZ, // نيوزيلندا
-  UY, // أوروجواي
-  CV, // الرأس الأخضر
-  AR, // الأرجنتين
-  AT, // النمسا
-  FR, // فرنسا
   IQ, // العراق
-  NO, // النرويج
+  FR, // فرنسا
+
   SN, // السنغال
-  JO, // الأردن
+  NO, // النرويج
+
   DZ, // الجزائر
-  EC, // الإكوادور
-  CW, // كوراساو
-  TN, // تونس
-  JP, // اليابان
-  ES, // إسبانيا
-  SA, // السعودية
-  BE, // بلجيكا
-  IR, // إيران
+  JO, // الأردن
+
+  UZ, // أوزبكستان
+  PT, // البرتغال
+
+  GH, // غانا
+  GB, // إنجلترا (استخدم GB)
+
+  HR, // كرواتيا
+  PA, // بنما
 } from "country-flag-icons/react/3x2";
 // import Image from "next/image";
  import Link from "next/link";
@@ -31,20 +27,20 @@ export default function Yesterday() {
 
       <div className="matches">
 <div className="team">
-    <UY className="flag" />
-    <span className="teamName">أوروجواي</span>
+    <IQ className="flag" />
+    <span className="teamName">العراق</span>
   </div>        <span className="score">0</span>
 
         <div className="matdel">
    <h5>لم تبدأ بعد</h5>
-          <h5>01:00 Am</h5>
-         <h5>كأس العالم - المجموعة ه</h5>        </div>
+          <h5>12:00 Am</h5>
+         <h5>كأس العالم - المجموعة ط</h5>        </div>
 
         <span className="score">0</span>
 <div className="team">
-    <CV className="flag" />
+    <FR className="flag" />
 
- <span className="teamName"> الرأس الأخضر</span>
+ <span className="teamName"> فرنسا</span>
   </div>
 </div>
               </Link>
@@ -54,19 +50,19 @@ export default function Yesterday() {
       <div className="matches">
 
 <div className="team">
-    < EG className="flag" />
-    <span className="teamName">مصر</span>
+    < SN className="flag" />
+    <span className="teamName">السنغال</span>
   </div>        <span className="score">0</span>
 
         <div className="matdel">
           <h5>لم تبدأ بعد</h5>
-          <h5>04:00 Am</h5>
-         <h5>كأس العالم - المجموعة و</h5>
+          <h5>03:00 Am</h5>
+         <h5>كأس العالم - المجموعة ط</h5>
         </div>
         <span className="score">0</span>
 <div className="team">
-    <NZ className="flag" />
-    <span className="teamName">نيوزيلندا</span>
+    <NO className="flag" />
+    <span className="teamName">النرويج</span>
   </div>     
    </div>
         </Link>
@@ -74,20 +70,60 @@ export default function Yesterday() {
 
       <div className="matches">
 <div className="team">
-    <AR className="flag" />
-    <span className="teamName">الأرجنتين</span>
+    <DZ className="flag" />
+    <span className="teamName">الجزائر</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>06:00 Am</h5>
+         <h5>كأس العالم - المجموعة ي</h5>
+        </div>
+
+        <span className="score">0</span>
+<div className="team">
+    <JO className="flag" />
+    <span className="teamName">الأردن</span>
+  </div>      </div>
+        </Link>
+          <Link className="maz" href="">
+
+      <div className="matches">
+<div className="team">
+    <UZ className="flag" />
+    <span className="teamName">أوزبكستان</span>
   </div>       
    <span className="score">0</span>
  <div className="matdel">
           <h5>لم تبدأ بعد</h5>
           <h5>08:00 pm</h5>
-         <h5>كأس العالم - المجموعة ح</h5>
+         <h5>كأس العالم - المجموعة ك</h5>
         </div>
 
         <span className="score">0</span>
 <div className="team">
-    <AT className="flag" />
-    <span className="teamName">النمسا</span>
+    <PT className="flag" />
+    <span className="teamName">البرتغال</span>
+  </div>      </div>
+        </Link>
+          <Link className="maz" href="">
+
+      <div className="matches">
+<div className="team">
+    <GH className="flag" />
+    <span className="teamName">غانا</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>11:00 pm</h5>
+         <h5>كأس العالم - المجموعة ل</h5>
+        </div>
+
+        <span className="score">0</span>
+<div className="team">
+    <GB className="flag" />
+    <span className="teamName">إنجلترا</span>
   </div>      </div>
         </Link>
 
