@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import Script from "next/script";
 
  export const metadata = {
+  metadataBase: new URL("https://my-nextapp-nine.vercel.app/"),
   title:
     "م أخبار المنتخبات والتغطية الكاملة للبطولر HD بدون إعلانات مزعجة | جدول المباريات والنتائج",
   

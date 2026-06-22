@@ -110,7 +110,7 @@ align-items: center;
 }
 /* ==================== MOBILE ==================== */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
   .page{
     padding: 5px;
@@ -122,7 +122,6 @@ align-items: center;
     gap: 15px;
   }
 
-  /* Sidebar تتحول لسلايدر أفقي */
 
   .sidbar{
     width: 100%;
@@ -196,7 +195,6 @@ align-items: center;
 }
 
 
-/* ==================== SMALL PHONES ==================== */
 
 @media screen and (max-width: 480px){
 
@@ -235,5 +233,81 @@ align-items: center;
 
   .bar-bottom{
     min-height: 180px;
+  }
+} */
+ @media screen and (max-width:768px){
+
+  .page{
+    overflow-x:hidden;
+  }
+
+  .content{
+    display:flex;
+    flex-direction:column;
+    min-height:auto;
+  }
+
+  .ti{
+    font-size:24px;
+    margin:10px;
+  }
+
+  .sidbar{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    overflow-x:auto;
+    overflow-y:hidden;
+    max-height:none;
+    gap:10px;
+    padding-bottom:10px;
+  }
+
+  .divv{
+    width:170px;
+    min-width:170px;
+    height:220px;
+    margin:0;
+    flex-shrink:0;
+  }
+
+  .divv h2{
+    font-size:15px;
+  }
+
+  .divv p{
+    font-size:12px;
+  }
+
+  .detal{
+    width:100%;
+    overflow:hidden;
+  }
+
+  .detal img{
+    width:100%;
+    height:auto;
+    max-width:100%;
+  }
+
+  .detal h1{
+    font-size:28px;
+    line-height:1.5;
+  }
+
+  .detal p{
+    font-size:18px;
+    line-height:1.8;
+  }
+
+  .titlebar{
+    font-size:24px;
+  }
+
+  .bar-bottom{
+    height:auto;
+    overflow-x:auto;
+    overflow-y:hidden;
+    gap:10px;
   }
 }

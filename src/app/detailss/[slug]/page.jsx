@@ -71,10 +71,10 @@ async function FmpostPage({ params }) {
               <Search />
 
     <div  className="content">
+          <h1 className="ti"> المقالات المقترحه</h1>
 
       <aside className="sidbar">
 
-          <h1 className="ti"> المقالات المقترحه</h1>
 
       {newss.map((post) => (
 

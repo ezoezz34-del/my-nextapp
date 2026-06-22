@@ -68,12 +68,13 @@ async function PostPage({ params }) {
     <Navbar/>
     <br />
               <Search />
+          <h1 className="ti"> المقالات المقترحه</h1>
 
     <div  className="content">
+          {/* <h1 className="ti"> المقالات المقترحه</h1> */}
 
       <aside className="sidbar">
 
-          <h1 className="ti"> المقالات المقترحه</h1>
 
       {newss.map((post) => (
 
