@@ -30,20 +30,20 @@ export default function Yesterday() {
 
       <div className="matches">
 <div className="team">
-    <EC className="flag" />
-    <span className="teamName">الإكوادور</span>
-  </div>        <span className="score">0</span>
+    <UY className="flag" />
+    <span className="teamName">أوروجواي</span>
+  </div>        <span className="score">2</span>
 
         <div className="matdel">
-                 <h3>انتهت المباراة</h3>         
-          
-          </div>
+                   <h3>انتهت المباراة</h3>         
+  
+           </div>
 
-        <span className="score">0</span>
+        <span className="score">2</span>
 <div className="team">
-    <CW className="flag" />
+    <CV className="flag" />
 
- <span className="teamName">كوراساو</span>
+ <span className="teamName"> الرأس الأخضر</span>
   </div>
 </div>
 
@@ -51,57 +51,39 @@ export default function Yesterday() {
       <div className="matches">
 
 <div className="team">
-    <TN className="flag" />
-    <span className="teamName">تونس</span>
-  </div>        <span className="score">0</span>
+    < EG className="flag" />
+    <span className="teamName">مصر</span>
+  </div>        <span className="score">3</span>
 
         <div className="matdel">
-                 <h3>انتهت المباراة</h3>         
-     
+                   <h3>انتهت المباراة</h3>         
+      
         </div>
-        <span className="score">4</span>
+        <span className="score">1</span>
 <div className="team">
-    <JP className="flag" />
-    <span className="teamName">اليابان</span>
+    <NZ className="flag" />
+    <span className="teamName">نيوزيلندا</span>
   </div>     
    </div>
 
       <div className="matches">
 <div className="team">
-    <ES className="flag" />
-    <span className="teamName">إسبانيا</span>
+    <AR className="flag" />
+    <span className="teamName">الأرجنتين</span>
   </div>       
-   <span className="score">4</span>
+   <span className="score">2</span>
  <div className="matdel">
-                 <h3>انتهت المباراة</h3>         
-        
+                           <h3>انتهت المباراة</h3>         
+
         </div>
 
         <span className="score">0</span>
 <div className="team">
-    <SA className="flag" />
-    <span className="teamName">السعودية</span>
+    <AT className="flag" />
+    <span className="teamName">النمسا</span>
   </div>      </div>
 
 
-
-      <div className="matches">
-
-<div className="team">
-    <BE className="flag" />
-    <span className="teamName">بلجيكا</span>
-  </div>        <span className="score">0</span>
-
-        <div className="matdel">
-                 <h3>انتهت المباراة</h3>         
-      
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <IR className="flag" />
-    <span className="teamName">إيران</span>
-  </div>      </div>
 
     </div>
   );
