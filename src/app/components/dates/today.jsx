@@ -54,14 +54,14 @@ export default function Yesterday() {
 <div className="team">
     < EG className="flag" />
     <span className="teamName">مصر</span>
-  </div>        <span className="score">0</span>
+  </div>        <span className="score">2</span>
 
         <div className="matdel">
           <h4> تبدأ المباراه</h4>
           <h5>04:00 Am</h5>
          <h5>كأس العالم - المجموعة و</h5>
         </div>
-        <span className="score">0</span>
+        <span className="score">1</span>
 <div className="team">
     <NZ className="flag" />
     <span className="teamName">نيوزيلندا</span>
