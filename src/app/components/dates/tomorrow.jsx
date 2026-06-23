@@ -2,7 +2,6 @@ import {
   BR, // البرازيل
   HT, // هايتي
   MA, // المغرب
-  GBSCT, // اسكتلندا
 
   ZA, // جنوبأفريقيا
   KR, // كورياالجنوبية
@@ -40,7 +39,12 @@ export default function Yesterday() {
 
         <span className="score">0</span>
 <div className="team">
-    <GBSCT className="flag" />
+<Image
+  src="/scotland.png"
+  alt="Scotland"
+  width={36}
+  height={32}
+/>
 
  <span className="teamName"> اسكتلندا</span>
   </div>
