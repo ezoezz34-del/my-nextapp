@@ -23,7 +23,7 @@ import {
 export default function Yesterday() {
   return (
     <div className="table">
-        <Link className="maz" href="./live">
+        <Link className="maz" href="./live2">
 
       <div className="matches">
 <div className="team">
