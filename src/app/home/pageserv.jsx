@@ -136,7 +136,7 @@ href={`/detailss/${post.slug}`}             >
 
      
       
-   <div className="pagination">
+   {/* <div className="pagination">
 
         {Array.from(
           { length: totalPages },
@@ -159,7 +159,7 @@ href={`/detailss/${post.slug}`}             >
 
           )
         )}
-                 </div>
+                 </div> */}
 
 </div>
 
