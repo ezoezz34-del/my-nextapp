@@ -72,6 +72,9 @@ href={`/details/${post.slug}`}             >
             <h2>{post.title}</h2>
 <br />
             <p>{post.desc}</p>
+                        <p>{post.description}</p>
+
+
 
           </div>
 

@@ -78,7 +78,7 @@ async function PostPage({ params }) {
       {newss.map((post) => (
 
         <Link
-          key={post.id}
+          key={post.slug}
 href={`/details/${post.slug}`}             >
 
           <div className="divv">
