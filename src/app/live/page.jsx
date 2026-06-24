@@ -119,8 +119,10 @@ function Live() {
   // src="https://24.streemach.site/albaplayer/live3/?serv=5"
     // src="https://11.yallashoot1.cc/albaplayer/ch1/?serv=1"
   // src="https://28.streemach.site/albaplayer/live1/?serv=1"
-  src=" https://z1.depoooo.com/albaplayer/bein-2/?serv=1"
+  // src=" https://z1.depoooo.com/albaplayer/bein-2/?serv=1"
   // https://27.streemach.site/albaplayer/live2/?serv=1
+    src="https://28.1yallashoot.store/albaplayer/live2/?serv=1"
+
 
 
   width="100%"
