@@ -66,7 +66,7 @@ export default function Yesterday() {
     <span className="teamName">المغرب</span>
   </div>     
    </div>
-        <Link className="maz" href="./live">
+        <Link className="maz" href="./live2">
 
       <div className="matches">
 <div className="team">
@@ -86,7 +86,7 @@ export default function Yesterday() {
     <span className="teamName">كورياالجنوبية</span>
   </div>      </div>
         </Link>
-          <Link className="maz" href="">
+          <Link className="maz" href="./live">
       <div className="matches">
 <div className="team">
     <MX className="flag" />
