@@ -121,7 +121,7 @@ function Live() {
   // src="https://28.streemach.site/albaplayer/live1/?serv=1"
   // src=" https://z1.depoooo.com/albaplayer/bein-2/?serv=1"
   // https://27.streemach.site/albaplayer/live2/?serv=1
-    src="https://27.1yallashoot.store/albaplayer/live4/?serv=1"
+    src="https://27.1yallashoot.store/albaplayer/live3/?serv=1"
 
 
 
