@@ -75,7 +75,7 @@ export default function Yesterday() {
   </div>       
    <span className="score">0</span>
  <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
+          <h4> تبدأ المباراه</h4>
           <h5>04:00 Pm</h5>
          <h5>كأس العالم - المجموعة ا</h5>
         </div>
@@ -94,7 +94,7 @@ export default function Yesterday() {
   </div>       
    <span className="score">0</span>
  <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
+          <h4> تبدأ المباراه</h4>
           <h5>04:00 شm</h5>
          <h5>كأس العالم - المجموعة ا</h5>
         </div>
