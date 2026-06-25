@@ -24,6 +24,46 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
+                        <Link className="maz" href="./live2">
+
+      <div className="matches">
+<div className="team">
+    <DE className="flag" />
+    <span className="teamName">ألمانيا</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>11:00 pm</h5>
+         <h5>كأس العالم - المجموعة ه</h5>
+        </div>
+
+        <span className="score">0</span>
+<div className="team">
+    <EC className="flag" />
+    <span className="teamName">الإكوادور</span>
+  </div>      </div>
+        </Link>
+         <Link className="maz" href="">
+
+      <div className="matches">
+<div className="team">
+    <CI className="flag" />
+    <span className="teamName">كوت ديفوار</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>11:00 pm</h5>
+         <h5>كأس العالم - المجموعة ه</h5>
+        </div>
+
+        <span className="score">0</span>
+<div className="team">
+    <CW className="flag" />
+    <span className="teamName">كوراساو</span>
+  </div>      </div>
+        </Link>
 
       <div className="matches">
 <div className="team">
@@ -66,18 +106,16 @@ export default function Yesterday() {
     <span className="teamName">المغرب</span>
   </div>     
    </div>
-        <Link className="maz" href="./live2">
 
       <div className="matches">
 <div className="team">
     <ZA className="flag" />
     <span className="teamName">جنوب أفريقيا</span>
   </div>       
-   <span className="score">0</span>
+   <span className="score">1</span>
  <div className="matdel">
-          <h4> تبدأ المباراه</h4>
-          <h5>04:00 Pm</h5>
-         <h5>كأس العالم - المجموعة ا</h5>
+                           <h3>انتهت المباراة</h3>         
+
         </div>
 
         <span className="score">0</span>
@@ -85,25 +123,21 @@ export default function Yesterday() {
     <KR className="flag" />
     <span className="teamName">كورياالجنوبية</span>
   </div>      </div>
-        </Link>
-          <Link className="maz" href="./live">
       <div className="matches">
 <div className="team">
     <MX className="flag" />
     <span className="teamName">المكسيك</span>
   </div>       
-   <span className="score">0</span>
+   <span className="score">3</span>
  <div className="matdel">
-          <h4> تبدأ المباراه</h4>
-          <h5>04:00 شm</h5>
-         <h5>كأس العالم - المجموعة ا</h5>
+                             <h3>انتهت المباراة</h3>         
+
         </div>
         <span className="score">0</span>
 <div className="team">
     <CZ className="flag" />
     <span className="teamName">التشيك</span>
   </div>      </div>
-        </Link>
                   <Link className="maz" href="./live2">
 
       <div className="matches">
