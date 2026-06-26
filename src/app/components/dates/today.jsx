@@ -1,22 +1,18 @@
 import {
-  BR, // البرازيل
-  HT, // هايتي
-  MA, // المغرب
-
-  ZA, // جنوبأفريقيا
-  KR, // كورياالجنوبية
-  MX, // المكسيك
-  CZ, // التشيك
-
-  DE, // ألمانيا
-  EC, // الإكوادور
-  CI, // كوتديفوار
-  CW, // كوراساو
-
   NL, // هولندا
   TN, // تونس
-  SE, // السويد
   JP, // اليابان
+  SE, // السويد
+  AU, // أستراليا
+  PY, // باراغواي
+  US, // الولاياتالمتحدة
+  TR, // تركيا
+  FR, // فرنسا
+  NO, // النرويج
+  IQ, // العراق
+  SN, // السنغال
+  ES, // إسبانيا
+  UY, // أوروجواي
 } from "country-flag-icons/react/3x2";
 import Image from "next/image";
  import Link from "next/link";
@@ -24,93 +20,66 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
-                        <Link className="maz" href="./live2">
+          <Link className="maz" href="">
 
       <div className="matches">
 <div className="team">
-    <DE className="flag" />
-    <span className="teamName">ألمانيا</span>
+    <FR className="flag" />
+    <span className="teamName">فرنسا</span>
   </div>       
    <span className="score">0</span>
  <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
+  <h5>لم تبدأ بعد</h5>
+          <h5>10:00 pm</h5>
+         <h5>كأس العالم - المجموعة ط</h5>
         </div>
 
         <span className="score">0</span>
 <div className="team">
-    <EC className="flag" />
-    <span className="teamName">الإكوادور</span>
+    <NO className="flag" />
+    <span className="teamName">النرويج</span>
   </div>      </div>
         </Link>
-         <Link className="maz" href="">
+                <Link className="maz" href="">
 
       <div className="matches">
 <div className="team">
-    <CI className="flag" />
-    <span className="teamName">كوت ديفوار</span>
+    <IQ className="flag" />
+    <span className="teamName">العراق</span>
   </div>       
    <span className="score">0</span>
  <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
+ <h5>لم تبدأ بعد</h5>
+          <h5>10:00 pm</h5>
+         <h5>كأس العالم - المجموعة ط</h5>
         </div>
 
         <span className="score">0</span>
 <div className="team">
-    <CW className="flag" />
-    <span className="teamName">كوراساو</span>
+    <SN className="flag" />
+    <span className="teamName">السنغال</span>
   </div>      </div>
         </Link>
-
-      <div className="matches">
+     <div className="matches">
 <div className="team">
-    <BR className="flag" />
-    <span className="teamName">البرازيل</span>
+    < NL className="flag" />
+    <span className="teamName">هولندا</span>
   </div>        <span className="score">3</span>
-
-        <div className="matdel">
-                <h3>انتهت المباراة</h3>         
-      
-          </div>
-
-        <span className="score">0</span>
-<div className="team">
-<Image
-  src="/scotland.png"
-  alt="Scotland"
-  width={36}
-  height={32}
-/>
-
- <span className="teamName"> اسكتلندا</span>
-  </div>
-</div>
-
-
-      <div className="matches">
-
-<div className="team">
-    < HT className="flag" />
-    <span className="teamName">هايتي</span>
-  </div>        <span className="score">2</span>
 
         <div className="matdel">
                      <h3>انتهت المباراة</h3>         
         </div>
-        <span className="score">4</span>
+        <span className="score">1</span>
 <div className="team">
-    <MA className="flag" />
-    <span className="teamName">المغرب</span>
+    <TN className="flag" />
+    <span className="teamName">تونس</span>
   </div>     
    </div>
 
       <div className="matches">
 <div className="team">
-    <ZA className="flag" />
-    <span className="teamName">جنوب أفريقيا</span>
+    <JP className="flag" />
+    <span className="teamName">اليابان</span>
   </div>       
    <span className="score">1</span>
  <div className="matdel">
@@ -118,68 +87,44 @@ export default function Yesterday() {
 
         </div>
 
-        <span className="score">0</span>
+        <span className="score">1</span>
 <div className="team">
-    <KR className="flag" />
-    <span className="teamName">كورياالجنوبية</span>
+    <SE className="flag" />
+    <span className="teamName">السويد</span>
   </div>      </div>
       <div className="matches">
 <div className="team">
-    <MX className="flag" />
-    <span className="teamName">المكسيك</span>
+    <AU className="flag" />
+    <span className="teamName">أستراليا</span>
   </div>       
-   <span className="score">3</span>
+   <span className="score">0</span>
  <div className="matdel">
                              <h3>انتهت المباراة</h3>         
 
         </div>
         <span className="score">0</span>
 <div className="team">
-    <CZ className="flag" />
-    <span className="teamName">التشيك</span>
+    <PY className="flag" />
+    <span className="teamName">باراغواي</span>
   </div>      </div>
-                  <Link className="maz" href="./live2">
 
       <div className="matches">
 <div className="team">
-    <DE className="flag" />
-    <span className="teamName">ألمانيا</span>
+    <US className="flag" />
+    <span className="teamName">الولايات المتحدة</span>
   </div>       
-   <span className="score">0</span>
+   <span className="score">2</span>
  <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
+                                   <h3>انتهت المباراة</h3>         
+
         </div>
 
-        <span className="score">0</span>
+        <span className="score">3</span>
 <div className="team">
-    <EC className="flag" />
-    <span className="teamName">الإكوادور</span>
+    <TR className="flag" />
+    <span className="teamName">تركيا</span>
   </div>      </div>
-        </Link>
-         <Link className="maz" href="">
-
-      <div className="matches">
-<div className="team">
-    <CI className="flag" />
-    <span className="teamName">كوت ديفوار</span>
-  </div>       
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <CW className="flag" />
-    <span className="teamName">كوراساو</span>
-  </div>      </div>
-        </Link>
-
-
+      
 
     </div>
   );
