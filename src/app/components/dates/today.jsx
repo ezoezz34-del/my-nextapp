@@ -56,7 +56,7 @@ export default function Yesterday() {
 </div>
               </Link>
 
-        <Link className="maz" href="./live">
+        <Link className="maz" href="./live2">
 
       <div className="matches">
 
