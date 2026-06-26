@@ -13,13 +13,13 @@ import {
   GB, // إنجلترا
   CO, // كولومبيا
   PT, // البرتغال
-  CD, // الكونغو الديمقراطية
+  CD, // الكونغوالديمقراطية
   UZ, // أوزبكستان
   DZ, // الجزائر
   AT, // النمسا
   JO, // الأردن
   AR, // الأرجنتين
-  ZA, // جنوب أفريقيا
+  ZA, // جنوبأفريقيا
   CA, // كندا
   NL, // هولندا
   TN, // تونس
@@ -32,7 +32,7 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
-        <Link className="maz" href="">
+        {/* <Link className="maz" href="">
 
       <div className="matches">
 <div className="team">
@@ -114,10 +114,10 @@ export default function Yesterday() {
     <BE className="flag" />
     <span className="teamName">بلجيكا</span>
   </div>      </div>
-        </Link>
-                  {/* <Link className="maz" href=""> */}
+        </Link> */}
+                  <Link className="maz" href=""> 
 
-      {/* <div className="matches">
+       <div className="matches">
 <div className="team">
     <HR className="flag" />
     <span className="teamName">كرواتيا</span>
@@ -125,8 +125,8 @@ export default function Yesterday() {
    <span className="score">0</span>
  <div className="matdel">
           <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
+          <h5>12:00 Am</h5>
+         <h5>كأس العالم - المجموعة ل</h5>
         </div>
 
         <span className="score">0</span>
@@ -145,8 +145,8 @@ export default function Yesterday() {
    <span className="score">0</span>
  <div className="matdel">
           <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
+          <h5>12:00 شm</h5>
+         <h5>كأس العالم - المجموعة ل</h5>
         </div>
 
         <span className="score">0</span>
@@ -165,8 +165,8 @@ export default function Yesterday() {
    <span className="score">0</span>
  <div className="matdel">
           <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
+          <h5>02:30 Am</h5>
+         <h5>كأس العالم - المجموعة ك</h5>
         </div>
 
         <span className="score">0</span>
@@ -174,10 +174,88 @@ export default function Yesterday() {
     <PT className="flag" />
     <span className="teamName">البرتغال</span>
   </div>      </div>
-        </Link> */}
+        </Link>
+          <Link className="maz" href="">
 
+      <div className="matches">
+<div className="team">
+    <CD className="flag" />
+    <span className="teamName">الكونغوالديمقراطية</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>02:30 Am</h5>
+         <h5>كأس العالم - المجموعة ك</h5>
+        </div>
 
+        <span className="score">0</span>
+<div className="team">
+    <UZ className="flag" />
+    <span className="teamName">أوزبكستان</span>
+  </div>      </div>
+        </Link>
+              <Link className="maz" href="">
 
+      <div className="matches">
+<div className="team">
+    <DZ className="flag" />
+    <span className="teamName">الجزائر</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>02:30 Am</h5>
+         <h5>كأس العالم - المجموعة ي</h5>
+        </div>
+
+        <span className="score">0</span>
+<div className="team">
+    <AT className="flag" />
+    <span className="teamName">النمسا</span>
+  </div>      </div>
+        </Link>
+
+            <Link className="maz" href="">
+
+      <div className="matches">
+<div className="team">
+    <JO className="flag" />
+    <span className="teamName">الأردن</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>05:30 Am</h5>
+         <h5>كأس العالم - المجموعة ي</h5>
+        </div>
+
+        <span className="score">0</span>
+<div className="team">
+    <AR className="flag" />
+    <span className="teamName">الأرجنتين</span>
+  </div>      </div>
+        </Link>
+            <Link className="maz" href="">
+
+      <div className="matches">
+<div className="team">
+    <ZA className="flag" />
+    <span className="teamName">جنوب أفريقيا</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+          <h5>10:00 Am</h5>
+         <h5> الدور ال32</h5>
+        </div>
+
+        <span className="score">0</span>
+<div className="team">
+    <CA className="flag" />
+    <span className="teamName">كندا</span>
+  </div>      </div>
+        </Link>
 
     </div>
   );
