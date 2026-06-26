@@ -121,7 +121,9 @@ function Live() {
   // src="https://28.streemach.site/albaplayer/live1/?serv=1"
   // src=" https://z1.depoooo.com/albaplayer/bein-2/?serv=1"
   // https://27.streemach.site/albaplayer/live2/?serv=1
-    src="https://player.syria-player.live/albaplayer/beinmax2/?serv=1"
+    // src="https://player.syria-player.live/albaplayer/beinmax2/?serv=1"
+    src="https://vip.worldkoora.com/albaplayer/vip2/?serv=1
+"
 
 
 

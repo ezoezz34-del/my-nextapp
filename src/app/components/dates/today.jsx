@@ -32,7 +32,7 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
-        <Link className="maz" href="">
+        <Link className="maz" href="./live">
 
       <div className="matches">
 <div className="team">
@@ -56,7 +56,7 @@ export default function Yesterday() {
 </div>
               </Link>
 
-        <Link className="maz" href="">
+        <Link className="maz" href="./live">
 
       <div className="matches">
 
@@ -115,67 +115,7 @@ export default function Yesterday() {
     <span className="teamName">بلجيكا</span>
   </div>      </div>
         </Link>
-                  {/* <Link className="maz" href=""> */}
-
-      {/* <div className="matches">
-<div className="team">
-    <HR className="flag" />
-    <span className="teamName">كرواتيا</span>
-  </div>       
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <GH className="flag" />
-    <span className="teamName">غانا</span>
-  </div>      </div>
-        </Link>
-         <Link className="maz" href="">
-
-      <div className="matches">
-<div className="team">
-    <PA className="flag" />
-    <span className="teamName">بنما</span>
-  </div>       
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <GB className="flag" />
-    <span className="teamName">إنجلترا</span>
-  </div>      </div>
-        </Link>
-          <Link className="maz" href="">
-
-      <div className="matches">
-<div className="team">
-    <CO className="flag" />
-    <span className="teamName">كولومبيا</span>
-  </div>       
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 pm</h5>
-         <h5>كأس العالم - المجموعة ه</h5>
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <PT className="flag" />
-    <span className="teamName">البرتغال</span>
-  </div>      </div>
-        </Link> */}
-
+              
 
 
 
