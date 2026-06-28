@@ -100,6 +100,7 @@ export default function RootLayout({ children }) {
           .appendChild(document.createElement('script')))
         `}
       </Script> */}
+      {/* code adstra */}
         <Script
           src="https://js.mbidadm.com/static/scripts.js"
           data-admpid="446287"
