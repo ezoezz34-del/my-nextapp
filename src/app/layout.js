@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
         />
         {/* <script src="https://quge5.com/88/tag.min.js" data-zone="250968" async data-cfasync="false"></script> */}
         {children}
-          <Script id="monetag-vignette" strategy="afterInteractive">
+          {/* <Script id="monetag-vignette" strategy="afterInteractive">
         {`
           (function(s){
             s.dataset.zone='11159994',
@@ -99,7 +99,12 @@ export default function RootLayout({ children }) {
           .pop()
           .appendChild(document.createElement('script')))
         `}
-      </Script>
+      </Script> */}
+        <Script
+          src="https://js.mbidadm.com/static/scripts.js"
+          data-admpid="446287"
+          strategy="afterInteractive"
+        />
         <Analytics />
 
         <Script
