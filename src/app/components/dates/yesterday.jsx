@@ -13,13 +13,13 @@ import {
   GB, // إنجلترا
   CO, // كولومبيا
   PT, // البرتغال
-  CD, // الكونغو الديمقراطية
+  CD, // الكونغوالديمقراطية
   UZ, // أوزبكستان
   DZ, // الجزائر
   AT, // النمسا
   JO, // الأردن
   AR, // الأرجنتين
-  ZA, // جنوب أفريقيا
+  ZA, // جنوبأفريقيا
   CA, // كندا
   NL, // هولندا
   TN, // تونس
@@ -32,16 +32,18 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
+        {/* <Link className="maz" href="">
 
       <div className="matches">
 <div className="team">
     <ES className="flag" />
     <span className="teamName">إسبانيا</span>
-  </div>        <span className="score">1</span>
+  </div>        <span className="score">0</span>
 
         <div className="matdel">
-                              <h3>انتهت المباراة</h3>         
-    
+   <h5>لم تبدأ بعد</h5>
+          <h5>03:00 Am</h5>
+         <h5>كأس العالم - المجموعة ح</h5>       
           </div>
 
         <span className="score">0</span>
@@ -52,8 +54,9 @@ export default function Yesterday() {
  </div>
 
 </div>
+              </Link>
 
-        <Link className="maz" href="./live2">
+        <Link className="maz" href="">
 
       <div className="matches">
 
@@ -63,8 +66,9 @@ export default function Yesterday() {
   </div>        <span className="score">0</span>
 
         <div className="matdel">
-                             <h3>انتهت المباراة</h3>         
-
+          <h5>لم تبدأ بعد</h5>
+          <h5>03:00 Am</h5>
+         <h5>كأس العالم - المجموعة ح</h5>  
         </div>
         <span className="score">0</span>
 <div className="team">
@@ -73,39 +77,168 @@ export default function Yesterday() {
   </div>     
    </div>
         </Link>
+        <Link className="maz" href="">
 
       <div className="matches">
 <div className="team">
     <EG className="flag" />
     <span className="teamName">مصر</span>
   </div>       
-   <span className="score"></span>
+   <span className="score">0</span>
  <div className="matdel">
-                                 <h3>انتهت المباراة</h3>         
+      <h5>لم تبدأ بعد</h5>
+          <h5>06:00 Am</h5>
+         <h5>كأس العالم - المجموعة ز</h5>
         </div>
 
-        <span className="score">1</span>
+        <span className="score">0</span>
 <div className="team">
     <IR className="flag" />
     <span className="teamName">إيران</span>
   </div>      </div>
+        </Link>
+          <Link className="maz" href="">
       <div className="matches">
 <div className="team">
     <NZ className="flag" />
     <span className="teamName">نيوزيلندا</span>
   </div>       
-   <span className="score">1</span>
+   <span className="score">0</span>
  <div className="matdel">
-                                 <h3>انتهت المباراة</h3>         
+          <h5>لم تبدأ بعد</h5>
+          <h5>06:00 Am</h5>
+         <h5>كأس العالم - المجموعة ز</h5>
         </div>
-        <span className="score">5</span>
+        <span className="score">0</span>
 <div className="team">
     <BE className="flag" />
     <span className="teamName">بلجيكا</span>
   </div>      </div>
-              
+        </Link> */}
 
+      <div className="matches">
+<div className="team">
+    <ZA className="flag" />
+    <span className="teamName">جنوب أفريقيا</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+                                              <h3>انتهت المباراة</h3>         
 
+        </div>
+
+        <span className="score">1</span>
+<div className="team">
+    <CA className="flag" />
+    <span className="teamName">كندا</span>
+  </div>      </div>
+       <div className="matches">
+<div className="team">
+    <HR className="flag" />
+    <span className="teamName">كرواتيا</span>
+  </div>       
+   <span className="score">2</span>
+ <div className="matdel">
+                                        <h3>انتهت المباراة</h3>         
+
+        </div>
+
+        <span className="score">1</span>
+<div className="team">
+    <GH className="flag" />
+    <span className="teamName">غانا</span>
+  </div>      </div>
+
+      <div className="matches">
+<div className="team">
+    <PA className="flag" />
+    <span className="teamName">بنما</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+                                      <h3>انتهت المباراة</h3>         
+
+        </div>
+
+        <span className="score">2</span>
+<div className="team">
+    <GB className="flag" />
+    <span className="teamName">إنجلترا</span>
+  </div>      </div>
+
+      <div className="matches">
+<div className="team">
+    <CO className="flag" />
+    <span className="teamName">كولومبيا</span>
+  </div>       
+   <span className="score">0</span>
+ <div className="matdel">
+                                             <h3>انتهت المباراة</h3>         
+
+        </div>
+
+        <span className="score">0</span>
+<div className="team">
+    <PT className="flag" />
+    <span className="teamName">البرتغال</span>
+  </div>      </div>
+          <Link className="maz" href="./live2">
+
+      <div className="matches">
+<div className="team">
+    <CD className="flag" />
+    <span className="teamName">الكونغوالديمقراطية</span>
+  </div>       
+   <span className="score">3</span>
+ <div className="matdel">
+                                               <h3>انتهت المباراة</h3>         
+
+        </div>
+
+        <span className="score">1</span>
+<div className="team">
+    <UZ className="flag" />
+    <span className="teamName">أوزبكستان</span>
+  </div>      </div>
+        </Link>
+
+      <div className="matches">
+<div className="team">
+    <DZ className="flag" />
+    <span className="teamName">الجزائر</span>
+  </div>       
+   <span className="score">3</span>
+ <div className="matdel">
+                                                     <h3>انتهت المباراة</h3>         
+
+        </div>
+
+        <span className="score">3</span>
+<div className="team">
+    <AT className="flag" />
+    <span className="teamName">النمسا</span>
+  </div>      </div>
+
+            <Link className="maz" href="./live2">
+
+      <div className="matches">
+<div className="team">
+    <JO className="flag" />
+    <span className="teamName">الأردن</span>
+  </div>       
+   <span className="score">1</span>
+ <div className="matdel">
+                                                <h3>انتهت المباراة</h3>         
+
+        </div>
+
+        <span className="score">3</span>
+<div className="team">
+    <AR className="flag" />
+    <span className="teamName">الأرجنتين</span>
+  </div>      </div>
+        </Link>
+           
 
     </div>
   );

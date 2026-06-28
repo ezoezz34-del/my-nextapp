@@ -80,13 +80,7 @@ export default function RootLayout({ children }) {
           }}
         />
       <body >
-    <Script
-          src="https://quge5.com/88/tag.min.js"
-          strategy="afterInteractive"
-          data-zone="250975"
-          data-cfasync="false"
-        />
-        {/* <script src="https://quge5.com/88/tag.min.js" data-zone="250968" async data-cfasync="false"></script> */}
+    
         {children}
           {/* <Script id="monetag-vignette" strategy="afterInteractive">
         {`
@@ -100,12 +94,7 @@ export default function RootLayout({ children }) {
           .appendChild(document.createElement('script')))
         `}
       </Script> */}
-      {/* code adstra */}
-        <Script
-          src="https://js.mbidadm.com/static/scripts.js"
-          data-admpid="446287"
-          strategy="afterInteractive"
-        />
+    
         <Analytics />
 
         <Script
