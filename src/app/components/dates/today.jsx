@@ -38,21 +38,19 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
-         <Link className="maz" href="./live">
  
       <div className="matches">
 <div className="team">
     <JP className="flag" />
     <span className="teamName">Japan</span>
-  </div>        <span className="score">0</span>
+  </div>        <span className="score">1</span>
 
         <div className="matdel">
-    <h4> تبدأ المباراه</h4>
-          <h5>08:00 pm</h5>
-         <h5> الدور ال32</h5>     
+                                                 <h3>انتهت المباراة</h3>         
+ 
           </div>
 
-        <span className="score">0</span>
+        <span className="score">2</span>
         <div className="team">
 
     <BR className="flag" />
@@ -60,7 +58,6 @@ export default function Yesterday() {
  </div>
 
 </div>
-              </Link>
 
         <Link className="maz" href="./live2">
 
