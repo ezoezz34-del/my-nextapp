@@ -46,11 +46,10 @@ export default function Yesterday() {
     <span className="teamName">France</span>
 
   </div>       
-   <span className="score">0</span>
+   <span className="score">3</span>
  <div className="matdel">
-       <h5>لم تبدأ بعد</h5>
-          <h4>12:00 Am</h4>
-         <h5> الدور ال32</h5> 
+                                                       <h3>انتهت المباراة</h3>         
+
         </div>
 
         <span className="score">0</span>
@@ -65,11 +64,10 @@ export default function Yesterday() {
     <MX className="flag" />
     <span className="teamName">Mexico</span>
   </div>       
-   <span className="score">0</span>
+   <span className="score">2</span>
  <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>04:00 Am</h5>
-         <h5> الدور ال32</h5> 
+                                                        <h3>انتهت المباراة</h3>         
+
         </div>
         <span className="score">0</span>
 <div className="team">
@@ -77,7 +75,7 @@ export default function Yesterday() {
     <span className="teamName">Ecuador</span>
   </div>      </div>
         </Link>  
-                   <Link className="maz" href=""> 
+                   <Link className="maz" href="./live"> 
 
        <div className="matches">
 <div className="team">
@@ -99,7 +97,7 @@ export default function Yesterday() {
     <span className="teamName">DR Congo</span>
   </div>      </div>
         </Link>
-         <Link className="maz" href="">
+         <Link className="maz" href="./live2">
 
       <div className="matches">
 <div className="team">
