@@ -348,11 +348,9 @@ export default function Yesterday() {
     <GB className="flag" />
     <span className="teamName">England</span>
   </div>     
-   GB, // England
-  CD, // DR Congo  
    <span className="score">0</span>
  <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
+          <h5> تبدأ المباراه</h5>
          <h5>07:00 Pm</h5>
          <h5> الدور ال32</h5> 
         </div>
