@@ -39,188 +39,67 @@ export default function Yesterday() {
   return (
     <div className="table">
         
-          {/* <Link className="maz" href="">
+           <Link className="maz" href="">
       <div className="matches">
 <div className="team">
-    <FR className="flag" />
-    <span className="teamName">France</span>
+    <PT className="flag" />
+    <span className="teamName">Portugal</span>
 
   </div>       
    <span className="score">3</span>
  <div className="matdel">
-                                                       <h3>انتهت المباراة</h3>         
-
+      <h5>لم تبدأ بعد</h5>
+          <h5>02:00 Am</h5>
+         <h5> الدور ال32</h5> 
         </div>
 
         <span className="score">0</span>
 <div className="team">
-    <SE className="flag" />
-    <span className="teamName">Sweden</span>
+    <HR className="flag" />
+    <span className="teamName">Croatia</span>
   </div>      </div>
         </Link>
            <Link className="maz" href="">
       <div className="matches">
 <div className="team">
-    <MX className="flag" />
-    <span className="teamName">Mexico</span>
-  </div>       
+    <CH className="flag" />
+    <span className="teamName">Switzerland</span>
+  </div>     
+    
    <span className="score">2</span>
  <div className="matdel">
-                                                        <h3>انتهت المباراة</h3>         
-
+  <h5>لم تبدأ بعد</h5>
+          <h5>06:00 Am</h5>
+         <h5> الدور ال32</h5> 
         </div>
         <span className="score">0</span>
 <div className="team">
-    <EC className="flag" />
-    <span className="teamName">Ecuador</span>
+    <DZ className="flag" />
+    <span className="teamName">Algeria</span>
   </div>      </div>
         </Link>  
-                   <Link className="maz" href="./live"> 
+                   <Link className="maz" href=""> 
 
        <div className="matches">
 <div className="team">
-    <GB className="flag" />
-    <span className="teamName">England</span>
+    <AU className="flag" />
+    <span className="teamName">Australia</span>
   </div>     
-   GB, // England
-  CD, // DR Congo  
    <span className="score">0</span>
  <div className="matdel">
           <h5>لم تبدأ بعد</h5>
-         <h5>07:00 Pm</h5>
+         <h5>09:00 Pm</h5>
          <h5> الدور ال32</h5> 
         </div>
 
         <span className="score">0</span>
 <div className="team">
-    <CD className="flag" />
-    <span className="teamName">DR Congo</span>
-  </div>      </div>
-        </Link>
-         <Link className="maz" href="./live2">
-
-      <div className="matches">
-<div className="team">
-    <BE className="flag" />
-    <span className="teamName">Belgium</span>
-  </div>      
-  
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>11:00 شm</h5>
-         <h5> الدور ال32</h5> 
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <SN className="flag" />
-    <span className="teamName">Senegal</span>
-  </div>      </div>
-        </Link> */}
-           <Link className="maz" href="">
-
-      <div className="matches">
-<div className="team">
-    <US className="flag" />
-    <span className="teamName">United States</span>
-  </div>       
-
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>03:00 Am</h5>
-         <h5> الدور ال32</h5> 
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <BA className="flag" />
-    <span className="teamName"> Bosnia and Herzegovina</span>
-  </div>      </div>
-        </Link>
-          <Link className="maz" href="">
-
-      <div className="matches">
-<div className="team">
-    <ES className="flag" />
-    <span className="teamName">Spain</span>
-  </div>       
-
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>10:00 Pm</h5>
-         <h5> الدور ال32</h5> 
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <AT className="flag" />
-    <span className="teamName">Austria</span>
-  </div>      </div>
-        </Link>
-              {/* <Link className="maz" href="">
-
-      <div className="matches">
-<div className="team">
-    <DZ className="flag" />
-    <span className="teamName">الجزائر</span>
-  </div>       
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>10:00 Pm</h5>
-         <h5>كأس العالم - المجموعة ي</h5>
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <AT className="flag" />
-    <span className="teamName">النمسا</span>
+    <EG className="flag" />
+    <span className="teamName">Egypt</span>
   </div>      </div>
         </Link>
 
-            <Link className="maz" href="">
 
-      <div className="matches">
-<div className="team">
-    <AT className="flag" />
-    <span className="teamName">الأردن</span>
-  </div>       
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>05:30 Am</h5>
-         <h5>كأس العالم - المجموعة ي</h5>
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <AR className="flag" />
-    <span className="teamName">الأرجنتين</span>
-  </div>      </div>
-        </Link>
-            <Link className="maz" href="">
-
-      <div className="matches">
-<div className="team">
-    <ZA className="flag" />
-    <span className="teamName">جنوب أفريقيا</span>
-  </div>       
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-          <h5>10:00 Am</h5>
-         <h5> الدور ال32</h5>
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <CA className="flag" />
-    <span className="teamName">كندا</span>
-  </div>      </div>
-        </Link>    */}
 
     </div>
   );
