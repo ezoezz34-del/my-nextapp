@@ -128,16 +128,15 @@ export default function Yesterday() {
     <AU className="flag" />
     <span className="teamName">Australia</span>
   </div>     
-   <span className="score">0</span>
+   <span className="score">1</span>
  <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-                {/* <h4> تبدأ المباراه</h4> */}
+                <h4> تبدأ المباراه</h4>
 
          <h5>09:00 Pm</h5>
          <h5> الدور ال32</h5> 
         </div>
 
-        <span className="score">0</span>
+        <span className="score">1</span>
 <div className="team">
     <EG className="flag" />
     <span className="teamName">Egypt</span>
