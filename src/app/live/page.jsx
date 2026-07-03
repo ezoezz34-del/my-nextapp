@@ -42,7 +42,7 @@ import Footer from "../components/footer";
     locale: "ar_EG",
  images: [
       {
-        url: "/images/شعار_كأس_العالم_2026..webp",
+        url: "/images/maser.jpeg",
         width: 1200,
         height: 630,
       },
@@ -55,7 +55,7 @@ import Footer from "../components/footer";
       "مشاهدة مباريات كأس العالم 2026 بث مباشر HD بدون إعلانات مزعجة",
     description:
       "جدول المباريات والنتائج المباشرة وأخبار كأس العالم 2026.",
-                images: ["/images/شعار_كأس_العالم_2026..webp"],
+                images: ["/images/maser.jpeg"],
 
   },
 

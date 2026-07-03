@@ -121,7 +121,28 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
-        
+                           <Link className="maz" href="./live"> 
+
+       <div className="matches">
+<div className="team">
+    <AU className="flag" />
+    <span className="teamName">Australia</span>
+  </div>     
+   <span className="score">0</span>
+ <div className="matdel">
+          <h5>لم تبدأ بعد</h5>
+                {/* <h4> تبدأ المباراه</h4> */}
+
+         <h5>09:00 Pm</h5>
+         <h5> الدور ال32</h5> 
+        </div>
+
+        <span className="score">0</span>
+<div className="team">
+    <EG className="flag" />
+    <span className="teamName">Egypt</span>
+  </div>      </div>
+        </Link>
       <div className="matches">
 <div className="team">
     <PT className="flag" />
@@ -139,45 +160,24 @@ export default function Yesterday() {
     <HR className="flag" />
     <span className="teamName">Croatia</span>
   </div>      </div>
-           <Link className="maz" href="./live">
       <div className="matches">
 <div className="team">
     <CH className="flag" />
     <span className="teamName">Switzerland</span>
   </div>     
     
-   <span className="score">0</span>
+   <span className="score">2</span>
  <div className="matdel">
-      <h4> تبدأ المباراه</h4>
-          <h5>06:00 Am</h5>
-         <h5> الدور ال32</h5> 
+                                                                                         <h3>انتهت المباراة</h3>         
+
+        
         </div>
         <span className="score">0</span>
 <div className="team">
     <DZ className="flag" />
     <span className="teamName">Algeria</span>
   </div>      </div>
-        </Link>  
-                   <Link className="maz" href=""> 
 
-       <div className="matches">
-<div className="team">
-    <AU className="flag" />
-    <span className="teamName">Australia</span>
-  </div>     
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-         <h5>09:00 Pm</h5>
-         <h5> الدور ال32</h5> 
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <EG className="flag" />
-    <span className="teamName">Egypt</span>
-  </div>      </div>
-        </Link>
 
 
 
