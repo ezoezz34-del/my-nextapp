@@ -217,6 +217,25 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
+                         <Link className="maz" href="./live"> 
+
+       <div className="matches">
+<div className="team">
+    <CA className="flag" />
+    <span className="teamName">Canada</span>
+  </div>     
+   <span className="score">0</span>
+ <div className="matdel">
+  <h4> تبدأ المباراه</h4>
+         <h5>08:00 Pm</h5>
+         <h5> الدور ال16</h5> 
+        </div>  
+        <span className="score">0</span>
+<div className="team">
+    <MA className="flag" />
+    <span className="teamName">Morocco</span>
+  </div>      </div>
+        </Link>
         
       <div className="matches">
 <div className="team">
@@ -235,7 +254,6 @@ export default function Yesterday() {
     <CV className="flag" />
     <span className="teamName">Cape Verde</span>
   </div>      </div>
-           <Link className="maz" href="./live">
       <div className="matches">
 <div className="team">
     <CO className="flag" />
@@ -245,17 +263,15 @@ export default function Yesterday() {
     
    <span className="score">1</span>
  <div className="matdel">
-  <h4> تبدأ المباراه</h4>
-          <h5>04:30 Am</h5>
-         <h5> الدور ال32</h5> 
+                                                                                                <h3>انتهت المباراة</h3>         
+
         </div>
         <span className="score">0</span>
 <div className="team">
     <GH className="flag" />
     <span className="teamName">Ghana</span>
   </div>      </div>
-        </Link>  
-                   <Link className="maz" href=""> 
+                   {/* <Link className="maz" href="./live"> 
 
        <div className="matches">
 <div className="team">
@@ -264,8 +280,8 @@ export default function Yesterday() {
   </div>     
    <span className="score">0</span>
  <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-         <h5>09:00 Pm</h5>
+  <h4> تبدأ المباراه</h4>
+         <h5>08:00 Pm</h5>
          <h5> الدور ال16</h5> 
         </div>  
         <span className="score">0</span>
@@ -273,7 +289,7 @@ export default function Yesterday() {
     <MA className="flag" />
     <span className="teamName">Morocco</span>
   </div>      </div>
-        </Link>
+        </Link> */}
 
 
 
