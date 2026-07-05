@@ -30,68 +30,65 @@ export default function Yesterday() {
   return (
     <div className="table">
         
-           <Link className="maz" href="./live2">
+           <Link className="maz" href="">
       <div className="matches">
 <div className="team">
-    <FR className="flag" />
-    <span className="teamName">France</span>
-
+    <US className="flag" />
+    <span className="teamName"> United States</span>
   </div>       
    <span className="score">0</span>
  <div className="matdel">
-    <h4> تبدأ المباراه</h4>
-
-          <h5>12:00 Am</h5>
+  <h5>لم تبدأ بعد</h5>
+          <h5>03:00 Am</h5>
          <h5> الدور ال16</h5> 
         </div>
-
         <span className="score">0</span>
 <div className="team">
-    <PY className="flag" />
-    <span className="teamName">Paraguay</span>
+    <BE className="flag" />
+    <span className="teamName">Belgium</span>
   </div>      </div>
         </Link>
            <Link className="maz" href="">
       <div className="matches">
 <div className="team">
-    <BR className="flag" />
+    <EG className="flag" />
  
-    <span className="teamName">Brazil</span>
+    <span className="teamName">Egypt</span>
   </div>     
-    
    <span className="score">0</span>
  <div className="matdel">
   <h5>لم تبدأ بعد</h5>
-          <h5>11:00 Pm</h5>
+          <h5>07:00 Pm</h5>
          <h5> الدور ال16</h5> 
         </div>
         <span className="score">0</span>
 <div className="team">
-
-    <NO className="flag" />
-    <span className="teamName">Norway</span>
+    <AR className="flag" />
+    <span className="teamName">Argentina</span>
   </div>      </div>
         </Link>  
-                   {/* <Link className="maz" href=""> 
+                   <Link className="maz" href=""> 
 
        <div className="matches">
 <div className="team">
-    <CA className="flag" />
-    <span className="teamName">Canada</span>
-  </div>     
+    <CH className="flag" />
+    <span className="teamName">Switzerland</span>
+  </div>       
+
    <span className="score">0</span>
  <div className="matdel">
           <h5>لم تبدأ بعد</h5>
-         <h5>09:00 Pm</h5>
+         <h5>11:00 Pm</h5>
          <h5> الدور ال16</h5> 
-        </div>  
+        </div>
+
         <span className="score">0</span>
 <div className="team">
-    <MA className="flag" />
-    <span className="teamName">Morocco</span>
+    <CO className="flag" />
+    <span className="teamName">Colombia</span>
   </div>      </div>
         </Link>
- */}
+
 
 
     </div>
