@@ -327,19 +327,16 @@ export default function Yesterday() {
   return (
     <div className="table">
         
-           <Link className="maz" href="./live2">
       <div className="matches">
 <div className="team">
     <FR className="flag" />
     <span className="teamName">France</span>
 
   </div>       
-   <span className="score">0</span>
+   <span className="score">1</span>
  <div className="matdel">
-    <h4> تبدأ المباراه</h4>
+                                                                                         <h3>انتهت المباراة</h3>         
 
-          <h5>12:00 Am</h5>
-         <h5> الدور ال16</h5> 
         </div>
 
         <span className="score">0</span>
@@ -347,8 +344,7 @@ export default function Yesterday() {
     <PY className="flag" />
     <span className="teamName">Paraguay</span>
   </div>      </div>
-        </Link>
-           <Link className="maz" href="">
+           <Link className="maz" href="./live">
       <div className="matches">
 <div className="team">
     <BR className="flag" />
@@ -358,6 +354,8 @@ export default function Yesterday() {
     
    <span className="score">0</span>
  <div className="matdel">
+      {/* <h4> تبدأ المباراه</h4> */}
+
   <h5>لم تبدأ بعد</h5>
           <h5>11:00 Pm</h5>
          <h5> الدور ال16</h5> 
