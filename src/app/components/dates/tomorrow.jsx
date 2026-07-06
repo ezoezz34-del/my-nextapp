@@ -30,64 +30,109 @@ export default function Yesterday() {
   return (
     <div className="table">
         
-           <Link className="maz" href="">
-      <div className="matches">
-<div className="team">
-    <US className="flag" />
-    <span className="teamName"> United States</span>
-  </div>       
-   <span className="score">0</span>
- <div className="matdel">
-  <h5>لم تبدأ بعد</h5>
-          <h5>03:00 Am</h5>
-         <h5> الدور ال16</h5> 
-        </div>
-        <span className="score">0</span>
-<div className="team">
-    <BE className="flag" />
-    <span className="teamName">Belgium</span>
-  </div>      </div>
-        </Link>
-           <Link className="maz" href="">
-      <div className="matches">
-<div className="team">
-    <EG className="flag" />
- 
-    <span className="teamName">Egypt</span>
-  </div>     
-   <span className="score">0</span>
- <div className="matdel">
-  <h5>لم تبدأ بعد</h5>
-          <h5>07:00 Pm</h5>
-         <h5> الدور ال16</h5> 
-        </div>
-        <span className="score">0</span>
-<div className="team">
-    <AR className="flag" />
-    <span className="teamName">Argentina</span>
-  </div>      </div>
-        </Link>  
-                   <Link className="maz" href=""> 
+       <div className="table">
 
-       <div className="matches">
-<div className="team">
-    <CH className="flag" />
-    <span className="teamName">Switzerland</span>
-  </div>       
+  {/* Morocco vs France */}
+  <Link className="maz" href="">
+    <div className="matches">
+      <div className="team">
+        <MA className="flag" />
+        <span className="teamName">Morocco</span>
+      </div>
 
-   <span className="score">0</span>
- <div className="matdel">
-          <h5>لم تبدأ بعد</h5>
-         <h5>11:00 Pm</h5>
-         <h5> الدور ال16</h5> 
-        </div>
+      <span className="score">0</span>
 
-        <span className="score">0</span>
-<div className="team">
-    <CO className="flag" />
-    <span className="teamName">Colombia</span>
-  </div>      </div>
-        </Link>
+      <div className="matdel">
+        <h5>لم تبدأ بعد</h5>
+        <h5>11:00 Pm</h5>
+        <h5>ربع النهائي</h5>
+      </div>
+
+      <span className="score">0</span>
+
+      <div className="team">
+        <FR className="flag" />
+        <span className="teamName">France</span>
+      </div>
+    </div>
+  </Link>
+
+  {/* Spain vs United States */}
+  {/* <Link className="maz" href="">
+    <div className="matches">
+      <div className="team">
+        <ES className="flag" />
+        <span className="teamName">Spain</span>
+      </div>
+
+      <span className="score">0</span>
+
+      <div className="matdel">
+        <h5>لم تبدأ بعد</h5>
+        <h5>10:00 Pm</h5>
+        <h5>ربع النهائي</h5>
+      </div>
+
+      <span className="score">0</span>
+
+      <div className="team">
+        <US className="flag" />
+        <span className="teamName">United States</span>
+      </div>
+    </div>
+  </Link> */}
+
+  {/* Norway vs England */}
+  <Link className="maz" href="">
+    <div className="matches">
+      <div className="team">
+        <NO className="flag" />
+        <span className="teamName">Norway</span>
+      </div>
+
+      <span className="score">0</span>
+
+      <div className="matdel">
+        <h5>لم تبدأ بعد</h5>
+        <h5>12:00 Am</h5>
+        <h5>ربع النهائي</h5>
+      </div>
+
+      <span className="score">0</span>
+
+      <div className="team">
+        <GB className="flag" />
+        <span className="teamName">England</span>
+      </div>
+    </div>
+  </Link>
+
+  {/* Argentina vs Switzerland */}
+  {/* <Link className="maz" href="">
+    <div className="matches">
+      <div className="team">
+        <AR className="flag" />
+        <span className="teamName">Argentina</span>
+      </div>
+
+      <span className="score">0</span>
+
+      <div className="matdel">
+        <h5>لم تبدأ بعد</h5>
+        <h5>04:00 Am</h5>
+        <h5>ربع النهائي</h5>
+      </div>
+
+      <span className="score">0</span>
+
+      <div className="team">
+        <CH className="flag" />
+        <span className="teamName">Switzerland</span>
+      </div>
+    </div>
+  </Link> */}
+
+</div>
 
 
 
