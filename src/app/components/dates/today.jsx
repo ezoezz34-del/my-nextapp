@@ -104,25 +104,22 @@ export default function Yesterday() {
   return (
     <div className="table">
         
-           <Link className="maz" href="./live2">
       <div className="matches">
 <div className="team">
     <GB className="flag" />
     <span className="teamName">England</span>
 
   </div>       
-   <span className="score">0</span>
+   <span className="score">3</span>
  <div className="matdel">
-  <h4> تبدأ المباراه</h4>
-          <h5>04:00 Am</h5>
-         <h5> الدور ال16</h5> 
+ <h3>انتهت المباراة</h3>         
+
         </div>
-        <span className="score">0</span>
+        <span className="score">2</span>
 <div className="team">
     <MX className="flag" />
     <span className="teamName">Mexico</span>
   </div>      </div>
-        </Link>
            <Link className="maz" href="">
       <div className="matches">
 <div className="team">
