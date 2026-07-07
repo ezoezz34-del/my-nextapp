@@ -34,8 +34,8 @@ export const metadata = {
     locale: "ar_EG",
  images: [
       {
-        url: "/images/mosal.jpeg",
-                // url: "/images/شعار_كأس_العالم_2026..webp",
+        // url: "/images/mosal.jpeg",
+                url: "/images/شعار_كأس_العالم_2026..webp",
         width: 1200,
         height: 630,
       },
@@ -48,8 +48,7 @@ export const metadata = {
       "مشاهدة مباريات كأس العالم 2026 بث مباشر HD بدون إعلانات مزعجة",
     description:
       "جدول المباريات والنتائج المباشرة وأخبار كأس العالم 2026.",
-                // images: ["/images/sapania.jpeg"],
-                 images: ["/images/mosal.jpeg"],
+                images: ["/images/شعار_كأس_العالم_2026..webp"],
 
 
   },
