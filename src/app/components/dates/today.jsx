@@ -37,13 +37,12 @@ export default function Yesterday() {
     <US className="flag" />
     <span className="teamName"> United States</span>
   </div>       
-   <span className="score">0</span>
+   <span className="score">1</span>
  <div className="matdel">
-  <h4> تبدأ المباراه</h4>
-          <h5>03:00 Am</h5>
-         <h5> الدور ال16</h5> 
+   <h3>انتهت المباراة</h3>         
+
         </div>
-        <span className="score">0</span>
+        <span className="score">4</span>
 <div className="team">
     <BE className="flag" />
     <span className="teamName">Belgium</span>
