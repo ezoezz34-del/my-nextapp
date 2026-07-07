@@ -64,12 +64,7 @@ function Live() {
   return (
 
     <div className="page">
-      <Script
-          src="https://quge5.com/88/tag.min.js"
-          strategy="afterInteractive"
-          data-zone="250975"
-          data-cfasync="false"
-        />
+  
       <Navbar />
 
       <br />
