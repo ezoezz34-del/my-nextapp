@@ -2,16 +2,8 @@ import "./page.css";
 import Search from "../components/search";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-
  import Script from "next/script";
-
-
-
-        
- 
-
-
- export const metadata = {
+export const metadata = {
   title:
     "مشاهدة مباريات كأس العالم 2026 بث مباشر HD بدون إعلانات مزعجة | جدول المباريات والنتائج",
     
@@ -42,9 +34,8 @@ import Footer from "../components/footer";
     locale: "ar_EG",
  images: [
       {
-        // url: "/images/sapania.jpeg",
-                url: "/images/شعار_كأس_العالم_2026..webp",
-
+        url: "/images/mosal.jpeg",
+                // url: "/images/شعار_كأس_العالم_2026..webp",
         width: 1200,
         height: 630,
       },
@@ -58,7 +49,7 @@ import Footer from "../components/footer";
     description:
       "جدول المباريات والنتائج المباشرة وأخبار كأس العالم 2026.",
                 // images: ["/images/sapania.jpeg"],
-                 images: ["/images/شعار_كأس_العالم_2026..webp"],
+                 images: ["/images/mosal.jpeg"],
 
 
   },

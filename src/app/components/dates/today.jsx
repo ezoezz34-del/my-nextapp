@@ -1,15 +1,12 @@
 
 import {
-  ZA, // South Africa
-  CA, // Canada
+
   MA, // Morocco
   BR, // Brazil
-  JP, // Japan
  NO , // Norway
 PY ,// Paraguay
   FR, // France
   SE, // Sweden
-  CI, // Ivory Coast
   MX, // Mexico
   EC, // Ecuador
   GB, // England
@@ -48,7 +45,7 @@ export default function Yesterday() {
     <span className="teamName">Belgium</span>
   </div>      </div>
         </Link>
-           <Link className="maz" href="">
+           <Link className="maz" href="./live">
       <div className="matches">
 <div className="team">
     <EG className="flag" />
@@ -57,7 +54,7 @@ export default function Yesterday() {
   </div>     
    <span className="score">0</span>
  <div className="matdel">
-  <h5>لم تبدأ بعد</h5>
+  <h4> تبدأ المباراه</h4>
           <h5>07:00 Pm</h5>
          <h5> الدور ال16</h5> 
         </div>
