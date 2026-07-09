@@ -33,7 +33,7 @@ export default function Yesterday() {
        <div className="table">
 
   
-  {/* Spain vs United States */}
+  {/* Spain vs United States
    <Link className="maz" href="">
     <div className="matches">
       <div className="team">
@@ -56,7 +56,7 @@ export default function Yesterday() {
         <span className="teamName">Belgium</span>
       </div>
     </div>
-  </Link> 
+  </Link>  */}
 
   {/* Norway vs England */}
   <Link className="maz" href="">
