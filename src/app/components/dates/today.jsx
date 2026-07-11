@@ -84,7 +84,7 @@ export default function Yesterday() {
 
  */}
   {/* Spain vs United States */}
- <Link className="maz" href="">
+ {/* <Link className="maz" href="">
     <div className="matches">
       <div className="team">
         <NO className="flag" />
@@ -106,7 +106,7 @@ export default function Yesterday() {
         <span className="teamName">England</span>
       </div>
     </div>
-  </Link>
+  </Link> */}
 
   {/* Argentina vs Switzerland */}
    {/* <Link className="maz" href="">
@@ -132,29 +132,26 @@ export default function Yesterday() {
       </div>
     </div>
   </Link>  */}
-   <Link className="maz" href="./live">
     <div className="matches">
       <div className="team">
         <NO className="flag" />
         <span className="teamName">Norway</span>
       </div>
 
-      <span className="score">0</span>
+      <span className="score">2</span>
 
       <div className="matdel">
-        <h5> تبدأ المباراه</h5>
-        <h5>12:00 Am</h5>
-        <h5>ربع النهائي</h5>
+           <h3>انتهت المباراة</h3>         
+    
       </div>
 
-      <span className="score">0</span>
+      <span className="score">1</span>
 
       <div className="team">
         <GB className="flag" />
         <span className="teamName">England</span>
       </div>
     </div>
-  </Link>
      <Link className="maz" href="">
     <div className="matches">
       <div className="team">
