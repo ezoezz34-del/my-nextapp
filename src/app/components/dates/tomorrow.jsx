@@ -59,7 +59,7 @@ export default function Yesterday() {
   </Link>  */}
 
   {/* Norway vs England */}
-  <Link className="maz" href="">
+  {/* <Link className="maz" href="">
     <div className="matches">
       <div className="team">
         <NO className="flag" />
@@ -81,10 +81,10 @@ export default function Yesterday() {
         <span className="teamName">England</span>
       </div>
     </div>
-  </Link>
+  </Link> */}
 
   {/* Argentina vs Switzerland */}
-   <Link className="maz" href="">
+   {/* <Link className="maz" href="">
     <div className="matches">
       <div className="team">
         <AR className="flag" />
@@ -106,7 +106,7 @@ export default function Yesterday() {
         <span className="teamName">Switzerland</span>
       </div>
     </div>
-  </Link> 
+  </Link>  */}
 
 </div>
 
