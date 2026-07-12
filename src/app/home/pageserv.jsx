@@ -108,7 +108,7 @@ href={`/details/${post.slug}`}             >
       {job.map((post) => (
 
         <Link
-          key={post.id}
+          key={post.slug}
 href={`/offers/${post.slug}`}             >
 
           <div className="divv">
