@@ -142,9 +142,7 @@ export default function Yesterday() {
 
       <div className="matdel">
            <h3>انتهت المباراة</h3>         
-    
       </div>
-
       <span className="score">1</span>
 
       <div className="team">
@@ -152,7 +150,7 @@ export default function Yesterday() {
         <span className="teamName">England</span>
       </div>
     </div>
-     <Link className="maz" href="">
+     <Link className="maz" href="./live2">
     <div className="matches">
       <div className="team">
         <AR className="flag" />
@@ -162,7 +160,7 @@ export default function Yesterday() {
       <span className="score">0</span>
 
       <div className="matdel">
-        <h5>لم تبدأ بعد</h5>
+        <h5> تبدأ المباراه</h5>
         <h5>04:00 Am</h5>
         <h5>ربع النهائي</h5>
       </div>
