@@ -28,24 +28,27 @@ export default function Yesterday() {
   return (
     <div className="table">
         
-           {/* <Link className="maz" href="./live2">
+            <Link className="maz" href="">
       <div className="matches">
 <div className="team">
-    <US className="flag" />
-    <span className="teamName"> United States</span>
+    <ES className="flag" /> 
+    <span className="teamName">Spain</span>
   </div>       
-   <span className="score">1</span>
+   <span className="score">0</span>
  <div className="matdel">
-   <h3>انتهت المباراة</h3>         
-
+        <h5>الثلاثاء 14 يوليو</h5>  
+ <h5>لم تبدأ بعد</h5>
+        <h5>10:00 Pm</h5>
+        <h5>نصف النهائي</h5>
         </div>
-        <span className="score">4</span>
+        <span className="score">0</span>
 <div className="team">
-    <BE className="flag" />
-    <span className="teamName">Belgium</span>
+    <FR className="flag" />  
+
+    <span className="teamName">France</span>
   </div>      </div>
         </Link>
-           <Link className="maz" href="./live">
+           {/* <Link className="maz" href="./live">
       <div className="matches">
 <div className="team">
     <EG className="flag" />
@@ -80,9 +83,9 @@ export default function Yesterday() {
 <div className="team">
     <CO className="flag" />
     <span className="teamName">Colombia</span>
-  </div>      </div>
+  </div>      </div> */}
 
- */}
+ 
   {/* Spain vs United States */}
  {/* <Link className="maz" href="">
     <div className="matches">
@@ -132,47 +135,7 @@ export default function Yesterday() {
       </div>
     </div>
   </Link>  */}
-    <div className="matches">
-      <div className="team">
-        <NO className="flag" />
-        <span className="teamName">Norway</span>
-      </div>
-
-      <span className="score">2</span>
-
-      <div className="matdel">
-           <h3>انتهت المباراة</h3>         
-      </div>
-      <span className="score">1</span>
-
-      <div className="team">
-        <GB className="flag" />
-        <span className="teamName">England</span>
-      </div>
-    </div>
-     <Link className="maz" href="./live2">
-    <div className="matches">
-      <div className="team">
-        <AR className="flag" />
-        <span className="teamName">Argentina</span>
-      </div>
-
-      <span className="score">0</span>
-
-      <div className="matdel">
-        <h5> تبدأ المباراه</h5>
-        <h5>04:00 Am</h5>
-        <h5>ربع النهائي</h5>
-      </div>
-
-      <span className="score">0</span>
-
-      <div className="team">
-        <CH className="flag" />
-        <span className="teamName">Switzerland</span>
-      </div>
-    </div>
-  </Link> 
+ 
 
     </div>
   );

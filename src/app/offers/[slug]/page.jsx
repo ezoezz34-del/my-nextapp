@@ -1,7 +1,9 @@
 import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
-import { job } from "../../data/job";
+import { fmnews } from "../../data/fmnews";
 import { newss } from "../../data/newss";
+import { job } from "../../data/job";
+
 import Search from "../../components/search";
 
 import "./page.css";
@@ -10,7 +12,7 @@ import Image from "next/image";
 export async function generateMetadata({ params }) {
   const { slug} = await params;
 
-  const post = newss.find((item) => item.slug == slug);
+  const post = job.find((item) => item.slug == slug);
 
   if (!post) {
     return {
@@ -49,11 +51,11 @@ export async function generateMetadata({ params }) {
 }
 
 
-async function PostPage({ params }) {
+async function offers({ params }) {
 
   const { slug } = await params;
 
-  const post = newss.find(
+  const post = job.find(
     (item) => item.slug == slug
   );
  
@@ -75,11 +77,11 @@ async function PostPage({ params }) {
       <aside className="sidbar">
 
 
-      {newss.map((post) => (
+      {job.map((post) => (
 
         <Link
           key={post.slug}
-href={`/details/${post.slug}`}             >
+href={`/offers/${post.slug}`}             >
 
           <div className="divv">
             {post.image && (
@@ -129,7 +131,14 @@ href={`/details/${post.slug}`}             >
 <h1>{post.title}</h1>
 <br />
       <p>{post.desc}</p>
-         
+              <Link className="kas" href="/">
+              <div className="apply">التقديم من هنا</div>
+              </Link>
+              <br />
+                <Link className="kas" href="/">
+              <div className="apply">apply From Here</div>
+              </Link> 
+
       </div>
       
     </div>
@@ -177,6 +186,6 @@ href={`/offers/${post.slug}`}             >
   );
 }
 
-export default PostPage;
+export default offers;
 
 

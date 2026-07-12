@@ -124,7 +124,44 @@ export default function Yesterday() {
         <span className="teamName">Belgium</span>
       </div>
     </div>
+   <div className="matches">
+      <div className="team">
+        <NO className="flag" />
+        <span className="teamName">Norway</span>
+      </div>
 
+      <span className="score">2</span>
+
+      <div className="matdel">
+           <h3>انتهت المباراة</h3>         
+      </div>
+      <span className="score">1</span>
+
+      <div className="team">
+        <GB className="flag" />
+        <span className="teamName">England</span>
+      </div>
+    </div>
+    <div className="matches">
+      <div className="team">
+        <AR className="flag" />
+        <span className="teamName">Argentina</span>
+      </div>
+
+      <span className="score">3</span>
+
+      <div className="matdel">
+                  <h3>انتهت المباراة</h3>         
+
+      </div>
+
+      <span className="score">1</span>
+
+      <div className="team">
+        <CH className="flag" />
+        <span className="teamName">Switzerland</span>
+      </div>
+    </div>
     </div>
   );
 }

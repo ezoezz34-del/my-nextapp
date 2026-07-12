@@ -6,7 +6,7 @@ import Link from "next/link";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import { newss } from "../data/newss";
-import { fmnews } from "../data/fmnews";
+import { job } from "../data/job";
 
 import Search from "../components/search";
 import Image from "next/image";
@@ -101,15 +101,15 @@ href={`/details/${post.slug}`}             >
 <div className="more">
             <Link  className="sami" href="/news">show more</Link>
 
-          <h1> فنون</h1>
+          <h1> وظائف</h1>
 </div>
           <section className="heroo">
       
-      {fmnews.map((post) => (
+      {job.map((post) => (
 
         <Link
           key={post.id}
-href={`/detailss/${post.slug}`}             >
+href={`/offers/${post.slug}`}             >
 
           <div className="divv">
                 <Image
