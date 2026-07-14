@@ -108,9 +108,9 @@ function Live() {
   // src="https://25.streemach.site/albaplayer/live1/?serv=1"
   // src=" https://z1.depoooo.com/albaplayer/bein-1/?serv=1"
   // https://27.streemach.site/albaplayer/live2/?serv=1
-    src="https://player.syria-player.live/albaplayer/beinmax1/?serv=1"
+    // src="https://player.syria-player.live/albaplayer/beinmax1/?serv=1"
     // src="https://vip.worldkoora.com/albaplayer/vip1/?serv=1"
-              // src="https://24.1yalla-shoot.space/albaplayer/live1/?serv=1"
+              src="https://24.1yalla-shoot.space/albaplayer/live1/?serv=1"
               // src="https://kora.depoooo.com/albaplayer/bein-1/?serv=2"
 
 
@@ -118,6 +118,7 @@ function Live() {
   width="100%"
 ></iframe>
 </div>
+              <div className="reload">  * في حال تعطل البث، قم بإعادة تحميل الصفحة لاستكمال المشاهدة</div>
 <br />
 
 <p>شاهد جميع مباريات كأس العالم 2026 بث مباشر بجودة عالية HD وبدون إعلانات مزعجة، مع تغطية شاملة لأهم المواجهات والنتائج وترتيب المجموعات لحظة بلحظة. تابع مباريات منتخب مصر وأقوى المنتخبات العالمية مثل الأرجنتين وفرنسا والبرازيل وإنجلترا وإسبانيا في أكبر بطولة كرة قدم على مستوى العالم. نوفر لك جدول مباريات كأس العالم 2026، مواعيد المباريات بتوقيت بلدك، النتائج المباشرة، أخبار المنتخبات، التشكيلات المتوقعة، وإحصائيات اللاعبين والهدافين. استمتع بمتابعة مستمرة لأحداث البطولة وتغطية كاملة لجميع الأدوار من دور المجموعات وحتى المباراة النهائية، مع تحديثات فورية لكل جديد يتعلق بكأس العالم 2026.</p>

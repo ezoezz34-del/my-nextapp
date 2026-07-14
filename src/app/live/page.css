@@ -39,6 +39,16 @@ background-color: #03455ab1;
     padding-right: 25px;
     color: #000;
  }
+ .reload{
+  color: #000;
+    box-shadow: 5px 5px 25px rgb(71, 79, 94);
+font-size: 60px;
+text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-top: 5px;
+}
  @media (max-width: 768px) {
 
   .page {
@@ -85,4 +95,8 @@ html,
 body {
   overflow-x: hidden;
 }
+ .reload {
+    font-size: 28px;
+    padding: 15px;
+  }
 }
