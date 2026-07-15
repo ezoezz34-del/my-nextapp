@@ -50,6 +50,7 @@
   margin-bottom: 8px;
   color: #334155;
   font-weight: 600;
+  
 }
 
 .input-group input,
@@ -81,6 +82,9 @@ button {
   font-weight: bold;
   cursor: pointer;
   transition: .3s;
+}
+input{
+  color:rgb(0, 0, 0);
 }
 
 button:hover {

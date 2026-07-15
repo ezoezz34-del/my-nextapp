@@ -27,19 +27,34 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
-        
-            <Link className="maz" href="./live">
+                    <Link className="maz" href="">
+      <div className="matches">
+<div className="team">
+    <GB className="flag" />
+
+    <span className="teamName">England</span>
+  </div>     
+   <span className="score">0</span>
+ <div className="matdel">
+ <h5> لم تبدأ المباراه </h5>
+        <h5>10:00 Pm</h5>
+        <h5>نصف النهائي</h5>
+        </div>
+        <span className="score">0</span>
+<div className="team">
+    <AR className="flag" />
+    <span className="teamName">Argentina</span>
+  </div>      </div>
+        </Link>  
       <div className="matches">
 <div className="team">
     <ES className="flag" /> 
     <span className="teamName">Spain</span>
   </div>       
-   <span className="score">0</span>
+   <span className="score">2</span>
  <div className="matdel">
-        <h5>الثلاثاء 14 يوليو</h5>  
- <h4> تبدأ المباراه</h4>
-        <h5>10:00 Pm</h5>
-        <h5>نصف النهائي</h5>
+   <h3>انتهت المباراة</h3>         
+
         </div>
         <span className="score">0</span>
 <div className="team">
@@ -47,43 +62,9 @@ export default function Yesterday() {
 
     <span className="teamName">France</span>
   </div>      </div>
-        </Link>
-           {/* <Link className="maz" href="./live">
-      <div className="matches">
-<div className="team">
-    <EG className="flag" />
- 
-    <span className="teamName">Egypt</span>
-  </div>     
-   <span className="score">2</span>
- <div className="matdel">
-   <h3>انتهت المباراة</h3>         
 
-        </div>
-        <span className="score">3</span>
-<div className="team">
-    <AR className="flag" />
-    <span className="teamName">Argentina</span>
-  </div>      </div>
-        </Link>  
 
-       <div className="matches">
-<div className="team">
-    <CH className="flag" />
-    <span className="teamName">Switzerland</span>
-  </div>       
 
-   <span className="score">0</span>
- <div className="matdel">
-           <h3>انتهت المباراة</h3>         
-         <h5>  انتهت رجلات ترجيح 4-3 لصالح سويسرا</h5> 
-        </div>
-
-        <span className="score">0</span>
-<div className="team">
-    <CO className="flag" />
-    <span className="teamName">Colombia</span>
-  </div>      </div> */}
 
  
   {/* Spain vs United States */}
