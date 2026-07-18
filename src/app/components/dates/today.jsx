@@ -27,38 +27,47 @@ import Image from "next/image";
 export default function Yesterday() {
   return (
     <div className="table">
+         <Link className="maz" href="./live">
+
       <div className="matches">
 <div className="team">
     <GB className="flag" />
 
     <span className="teamName">England</span>
   </div>     
-   <span className="score">1</span>
+   <span className="score">4</span>
  <div className="matdel">
-   <h3>انتهت المباراة</h3>         
+   <h3>ابتدت المباراة</h3>         
 
         </div>
-        <span className="score">2</span>
+        <span className="score">0</span>
 <div className="team">
     <AR className="flag" />
-    <span className="teamName">Argentina</span>
+    <span className="teamName">France</span>
   </div>      </div>
+    </Link>  
+   <Link className="maz" href="">
+
       <div className="matches">
 <div className="team">
     <ES className="flag" /> 
     <span className="teamName">Spain</span>
   </div>       
-   <span className="score">2</span>
+   <span className="score">0</span>
  <div className="matdel">
-   <h3>انتهت المباراة</h3>         
-
+  <h5>لم تبدأ بعد</h5>
+        <h5>10:00 Pm</h5>
+        <h5> النهائي</h5>
         </div>
         <span className="score">0</span>
 <div className="team">
-    <FR className="flag" />  
+    <AR className="flag" />  
 
-    <span className="teamName">France</span>
-  </div>      </div>
+    <span className="teamName">Argentina</span>
+  </div>     
+
+   </div>
+    </Link>  
 
 
 
