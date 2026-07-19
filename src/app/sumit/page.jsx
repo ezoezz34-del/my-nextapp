@@ -95,6 +95,10 @@ export default function ApplyPage() {
             <textarea rows="4" />
           </div>
 
+          <div className="input-group">
+            <label>         💬 Chat on WhatsApp رفم </label>
+            <input type="text" required />
+          </div>
           <button type="submit">Submit Application</button>
         </form>
       </div>

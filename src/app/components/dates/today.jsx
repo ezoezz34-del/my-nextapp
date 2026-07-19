@@ -41,7 +41,7 @@ export default function Yesterday() {
         </div>
         <span className="score">4</span>
 <div className="team">
-    <AR className="flag" />
+    <FR className="flag" />
     <span className="teamName">France</span>
   </div>      </div>
    <Link className="maz" href="">
