@@ -134,7 +134,6 @@ href={`/offers/${post.slug}`}             >
               <Link className="kas" href="/sumit">
               <div className="apply">التقديم من هنا</div>
               </Link>
-              <br />
                 <Link className="kas" href="/sumit">
               <div className="apply">apply From Here</div>
               </Link> 

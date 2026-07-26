@@ -10,11 +10,7 @@ PY ,// Paraguay
   MX, // Mexico
   EC, // Ecuador
   GB, // England
-  CD, // DR Congo
-  US, // United States
-  BE, // Belgium
-  PT, // Portugal
-  HR, // Croatia
+
   ES, // Spain
   CH, // Switzerland
   AR, // Argentina
