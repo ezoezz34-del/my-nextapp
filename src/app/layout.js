@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
       <body >
     
         {children}
-          {/* <Script id="monetag-vignette" strategy="afterInteractive">
+           <Script id="monetag-vignette" strategy="afterInteractive">
         {`
           (function(s){
             s.dataset.zone='11159994',
@@ -93,7 +93,7 @@ export default function RootLayout({ children }) {
           .pop()
           .appendChild(document.createElement('script')))
         `}
-      </Script> */}
+      </Script> 
     
         <Analytics />
 
