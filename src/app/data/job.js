@@ -208,7 +208,7 @@ If you are preparing to apply, update your CV with measurable achievements, high
 
 Important: The roles listed in this article represent job categories and examples rather than a guarantee that every position is currently open. Applicants should check Microsoft's official careers platform for current vacancies, locations, eligibility requirements, and application deadlines before submitting an application.
     `,
-     image: "/images/microer.jpeg",
+     image: "/images/micr.jpeg",
 
   },
 
@@ -249,7 +249,7 @@ For anyone preparing for a Google application, researching the role carefully an
 
 Important: The positions and categories in this article are examples for career exploration and do not confirm that every listed role is currently open. Candidates should use Google's official careers platform to verify live vacancies, locations, qualifications, and application requirements before applying.
     `,
-     image: "/images/googleerr.jpeg",
+     image: "/images/gg.jpeg",
 
   },
 
@@ -271,7 +271,7 @@ Important: The positions and categories in this article are examples for career 
 
 مهم: المسميات الوظيفية المذكورة هنا أمثلة وفئات للبحث والاستكشاف المهني، ولا تعني أن جميعها متاحة حاليًا. يجب مراجعة منصة التوظيف الرسمية لجوجل للتأكد من الوظائف المفتوحة حاليًا، ومكان العمل، والمتطلبات، وشروط التقديم قبل إرسال الطلب.
     `,
-     image: "/images/googlear.jpeg",
+     image: "/images/gg.jpeg",
 
   },
 
