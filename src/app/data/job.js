@@ -189,6 +189,90 @@ export const job = [
 `,
  image: "/images/ssnbb.png",
 
-  }
+  },
+   {
+  
+    slug: "microsoft-jobs-2026-50-plus-career-opportunities",
+    title:
+      "Microsoft Jobs 2026: 50+ Career Opportunities for Developers, Engineers & Business Professionals",
+    desc: `
+Microsoft continues to attract professionals who want to build products used by millions of people around the world. This career-focused article highlights more than 50 job categories across software engineering, cloud computing, artificial intelligence, cybersecurity, data, product management, sales, finance, marketing, design, and business operations.
+
+Potential opportunities include Software Engineer, Senior Software Engineer, Frontend Engineer, Backend Engineer, Full Stack Engineer, Cloud Engineer, Azure Solutions Architect, DevOps Engineer, Site Reliability Engineer, AI Engineer, Machine Learning Engineer, Data Scientist, Data Engineer, Security Engineer, Cybersecurity Analyst, Cloud Security Specialist, Technical Program Manager, Product Manager, Program Manager, UX Designer, UI Designer, Researcher, Technical Writer, Solutions Consultant, Customer Success Manager, Technical Support Engineer, Account Executive, Sales Specialist, Business Development Manager, Marketing Manager, Content Strategist, Financial Analyst, Business Analyst, HR Specialist, Talent Acquisition Partner, Operations Manager, Supply Chain Specialist, Procurement Specialist, Project Manager, Administrative Coordinator, Communications Specialist, Partner Development Manager, Enterprise Account Manager, and many more.
+
+These opportunities can suit graduates, experienced professionals, and specialists looking to move into technology-driven careers. Depending on the position, candidates may be expected to demonstrate skills in programming, cloud platforms, databases, data analysis, AI, cybersecurity, communication, project management, customer engagement, or business strategy.
+
+Microsoft careers can be especially attractive to people interested in Azure, Microsoft 365, Windows, gaming, artificial intelligence, enterprise software, and developer tools. Candidates should carefully review the requirements for each position because education, professional experience, technical certifications, and language requirements can vary.
+
+If you are preparing to apply, update your CV with measurable achievements, highlight relevant technical and professional skills, and prepare examples that demonstrate problem-solving, collaboration, ownership, and impact. For technical roles, practical projects and a strong portfolio can also help.
+
+Important: The roles listed in this article represent job categories and examples rather than a guarantee that every position is currently open. Applicants should check Microsoft's official careers platform for current vacancies, locations, eligibility requirements, and application deadlines before submitting an application.
+    `,
+     image: "/images/microer.jpeg",
+
+  },
+
+//   {
+//     company: "Microsoft",
+//     language: "ar",
+//     slug: "microsoft-jobs-2026-50-plus-opportunities-ar",
+//     title:
+//       "وظائف مايكروسوفت 2026: أكثر من 50 فرصة في البرمجة والذكاء الاصطناعي والسحابة",
+//     desc: `
+// تُعد مايكروسوفت من أشهر شركات التكنولوجيا في العالم، ولذلك تمثل وظائفها فرصة جذابة للمتخصصين في البرمجة والذكاء الاصطناعي والحوسبة السحابية والأمن السيبراني وإدارة المنتجات والأعمال. يستعرض هذا المقال أكثر من 50 مسمى وفئة وظيفية يمكن للباحثين عن عمل متابعتها عند البحث عن فرص لدى Microsoft.
+
+// تشمل الفئات الوظيفية: مهندس برمجيات، مهندس برمجيات أول، مطور Frontend، مطور Backend، مطور Full Stack، مهندس Cloud، مهندس Azure، مهندس DevOps، مهندس Site Reliability، مهندس ذكاء اصطناعي، مهندس Machine Learning، عالم بيانات، مهندس بيانات، مهندس أمن سيبراني، محلل Cybersecurity، متخصص Cloud Security، مدير منتج، مدير مشروع، مدير برامج تقنية، مصمم UX، مصمم UI، باحث، كاتب تقني، مستشار حلول تقنية، مهندس دعم فني، مسؤول نجاح العملاء، مسؤول مبيعات، مدير حسابات، مسؤول تطوير أعمال، مدير تسويق، كاتب محتوى، محلل مالي، محلل أعمال، أخصائي موارد بشرية، مسؤول توظيف، مدير عمليات، أخصائي مشتريات، أخصائي سلاسل إمداد، مدير مشاريع، منسق إداري، أخصائي اتصالات، مدير شراكات، مدير حسابات الشركات، وأدوار أخرى متنوعة.
+
+// وتناسب هذه المسارات الخريجين الجدد وأصحاب الخبرة، حسب متطلبات كل وظيفة. وقد تحتاج الوظائف التقنية إلى معرفة بلغات البرمجة وقواعد البيانات والحوسبة السحابية وتحليل البيانات والذكاء الاصطناعي والأمن السيبراني، بينما تحتاج وظائف الأعمال إلى مهارات الإدارة والتواصل والتحليل والمبيعات والتسويق.
+
+// قبل التقديم، من الأفضل تجهيز سيرة ذاتية احترافية تركز على الإنجازات وليس مجرد سرد المهام، مع إبراز المهارات المرتبطة مباشرة بالوظيفة. ويمكن للمتخصصين في التكنولوجيا دعم ملفهم بمشاريع عملية أو Portfolio عند الحاجة.
+
+// مهم: هذه الصفحة تعرض أكثر من 50 فئة ومسمى وظيفي كدليل للباحثين عن فرص، ولا تعني أن جميع الوظائف المذكورة مفتوحة حاليًا. يجب التأكد من الوظائف المتاحة وشروطها ومكان العمل وموعد التقديم من منصة التوظيف الرسمية لمايكروسوفت قبل إرسال الطلب.
+//     `,
+//   },
+
+  {
+ 
+    slug: "google-jobs-2026-50-plus-career-opportunities",
+    title:
+      "Google Jobs 2026: 50+ Opportunities in AI, Software, Cloud, Data & Business",
+    desc: `
+Google is one of the world's most recognized technology companies, offering career paths across engineering, artificial intelligence, cloud computing, data, security, product, sales, marketing, finance, people operations, and many other disciplines. This article brings together more than 50 job categories that candidates can explore when searching for opportunities at Google.
+
+Potential roles include Software Engineer, Senior Software Engineer, Frontend Engineer, Backend Engineer, Full Stack Engineer, Mobile Engineer, Cloud Engineer, Cloud Solutions Architect, Site Reliability Engineer, DevOps Engineer, Machine Learning Engineer, AI Engineer, Data Scientist, Data Analyst, Data Engineer, Security Engineer, Security Analyst, Privacy Specialist, Technical Program Manager, Product Manager, Product Designer, UX Researcher, UX Designer, Technical Writer, Developer Relations Specialist, Solutions Consultant, Customer Engineer, Technical Support Specialist, Account Manager, Sales Manager, Business Development Manager, Partner Manager, Marketing Manager, Growth Marketing Specialist, Communications Manager, Content Strategist, Financial Analyst, Business Analyst, People Operations Specialist, Recruiter, Talent Program Manager, Operations Manager, Project Manager, Procurement Specialist, Legal Operations Specialist, Administrative Coordinator, and additional professional roles.
+
+Google-related career paths can be appealing to candidates interested in Search, YouTube, Android, Google Cloud, advertising technologies, artificial intelligence, data platforms, security, and consumer products. Requirements differ significantly between roles. Engineering positions may require strong programming and systems knowledge, while business and operations roles may focus on analytics, communication, strategy, customer relationships, or project execution.
+
+Applicants should tailor their CV and application to the specific vacancy. Instead of listing every skill, highlight the technologies, achievements, projects, and experiences most relevant to the position. Technical candidates can strengthen their profile with practical projects and evidence of solving real-world problems.
+
+For anyone preparing for a Google application, researching the role carefully and preparing structured examples of problem-solving, collaboration, leadership, and measurable impact can be useful.
+
+Important: The positions and categories in this article are examples for career exploration and do not confirm that every listed role is currently open. Candidates should use Google's official careers platform to verify live vacancies, locations, qualifications, and application requirements before applying.
+    `,
+     image: "/images/googleerr.jpeg",
+
+  },
+
+  {
+ 
+    slug: "google-jobs-2026-50-plus-opportunities-ar",
+    title:
+      "وظائف جوجل 2026: أكثر من 50 فرصة في الذكاء الاصطناعي والبرمجة والبيانات",
+    desc: `
+تُعتبر جوجل واحدة من أشهر شركات التكنولوجيا عالميًا، وتوفر مسارات مهنية متنوعة في هندسة البرمجيات والذكاء الاصطناعي والحوسبة السحابية وتحليل البيانات والأمن وإدارة المنتجات والمبيعات والتسويق والتمويل والعمليات وغيرها. ويستعرض هذا المقال أكثر من 50 مسمى وفئة وظيفية يمكن للباحثين عن عمل متابعتها عند البحث عن فرص في Google.
+
+تشمل الفئات الوظيفية: مهندس برمجيات، مهندس برمجيات أول، مطور Frontend، مطور Backend، مطور Full Stack، مطور تطبيقات الهاتف، مهندس Cloud، مهندس حلول سحابية، مهندس Site Reliability، مهندس DevOps، مهندس Machine Learning، مهندس ذكاء اصطناعي، عالم بيانات، محلل بيانات، مهندس بيانات، مهندس أمن، محلل أمن سيبراني، متخصص خصوصية، مدير برامج تقنية، مدير منتج، مصمم منتجات، باحث UX، مصمم UX، كاتب تقني، متخصص علاقات المطورين، مستشار حلول، مهندس عملاء، متخصص دعم تقني، مدير حسابات، مدير مبيعات، مدير تطوير أعمال، مدير شراكات، مدير تسويق، متخصص Growth Marketing، مدير اتصالات، استراتيجي محتوى، محلل مالي، محلل أعمال، أخصائي عمليات الأفراد، مسؤول توظيف، مدير برامج المواهب، مدير عمليات، مدير مشاريع، أخصائي مشتريات، أخصائي عمليات قانونية، منسق إداري، بالإضافة إلى العديد من الوظائف المهنية الأخرى.
+
+وتناسب هذه المسارات الأشخاص المهتمين بخدمات ومنتجات مثل Google Search وYouTube وAndroid وGoogle Cloud وتقنيات الإعلانات والذكاء الاصطناعي ومنصات البيانات والأمن. وتختلف شروط التقديم حسب كل وظيفة؛ فالوظائف الهندسية تحتاج عادةً إلى مهارات تقنية وبرمجية قوية، بينما تركز وظائف الأعمال والعمليات على التحليل والتواصل والاستراتيجية وإدارة العملاء والمشروعات.
+
+ولزيادة فرصك، قم بتخصيص السيرة الذاتية لكل وظيفة، وركز على الإنجازات والمشاريع والخبرات المرتبطة بالوصف الوظيفي. ويمكن للمبرمجين والمتخصصين التقنيين إضافة مشاريع عملية أو Portfolio يوضح قدراتهم.
+
+كما يُفضل الاستعداد للمقابلات من خلال التدريب على حل المشكلات، والتعاون والعمل الجماعي، والقيادة، وشرح النتائج التي حققتها في مشاريع أو وظائف سابقة.
+
+مهم: المسميات الوظيفية المذكورة هنا أمثلة وفئات للبحث والاستكشاف المهني، ولا تعني أن جميعها متاحة حاليًا. يجب مراجعة منصة التوظيف الرسمية لجوجل للتأكد من الوظائف المفتوحة حاليًا، ومكان العمل، والمتطلبات، وشروط التقديم قبل إرسال الطلب.
+    `,
+     image: "/images/googlear.jpeg",
+
+  },
 
 ];

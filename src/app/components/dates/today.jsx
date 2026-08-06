@@ -63,58 +63,6 @@ export default function Yesterday() {
 
 
 
- 
-  {/* Spain vs United States */}
- {/* <Link className="maz" href="">
-    <div className="matches">
-      <div className="team">
-        <NO className="flag" />
-        <span className="teamName">Norway</span>
-      </div>
-
-      <span className="score">0</span>
-
-      <div className="matdel">
-        <h5>لم تبدأ بعد</h5>
-        <h5>12:00 Am</h5>
-        <h5>ربع النهائي</h5>
-      </div>
-
-      <span className="score">0</span>
-
-      <div className="team">
-        <GB className="flag" />
-        <span className="teamName">England</span>
-      </div>
-    </div>
-  </Link> */}
-
-  {/* Argentina vs Switzerland */}
-   {/* <Link className="maz" href="">
-    <div className="matches">
-      <div className="team">
-        <AR className="flag" />
-        <span className="teamName">Argentina</span>
-      </div>
-
-      <span className="score">0</span>
-
-      <div className="matdel">
-        <h5>لم تبدأ بعد</h5>
-        <h5>04:00 Am</h5>
-        <h5>ربع النهائي</h5>
-      </div>
-
-      <span className="score">0</span>
-
-      <div className="team">
-        <CH className="flag" />
-        <span className="teamName">Switzerland</span>
-      </div>
-    </div>
-  </Link>  */}
- 
-
     </div>
   );
 }
