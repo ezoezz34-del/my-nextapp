@@ -122,9 +122,13 @@ function Live() {
     // src="https://11.yallashoot1.cc/albaplayer/ch1/?serv=1"
   // src="https://27.1yallashoot.store/albaplayer/live5/?serv=1"
   // src=" https://z1.depoooo.com/albaplayer/bein-2/?serv=1"
+     src="https://hjiojhiofgkuyk.jo3.org/embed.php?id=5281618291"
+
   // https://27.streemach.site/albaplayer/live2/?serv=1
-      src="https://player.syria-player.live/albaplayer/beinmax2/?serv=1"
+  // https://new.site20260.top/embed/1440/0
+      // src="https://player.syria-player.live/albaplayer/beinmax1/?serv=1"
           // src="https://kora.depoooo.com/albaplayer/bein-2/?serv=1"
+
 
 
 

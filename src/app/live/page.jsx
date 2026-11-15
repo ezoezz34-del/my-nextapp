@@ -5,16 +5,16 @@ import Footer from "../components/footer";
  import Script from "next/script";
 export const metadata = {
   title:
-    "مشاهدة مباريات كأس العالم 2026 بث مباشر HD بدون إعلانات مزعجة | جدول المباريات والنتائج",
+    "مشاهدة مباريات قويه و مميزه 2026 بث مباشر HD بدون إعلانات مزعجة | جدول المباريات والنتائج",
     
   description:
-    "شاهد مباريات كأس العالم 2026 بث مباشر بجودة HD وبدون إعلانات مزعجة، مع جدول المباريات، النتائج المباشرة، ترتيب المجموعات، أخبار المنتخبات والتغطية الكاملة للبطولة.",
+    "شاهد مباريات قويه و مميزه 2026 بث مباشر بجودة HD وبدون إعلانات مزعجة، مع جدول المباريات، النتائج المباشرة، ترتيب المجموعات، أخبار المنتخبات والتغطية الكاملة للبطولة.",
 
   keywords: [
     "كأس العالم 2026",
     "مشاهدة كأس العالم 2026",
-    "بث مباشر كأس العالم",
-    "مباريات كأس العالم اليوم",
+    "بث مباشرقويه و مميزهم",
+    "مباريات قويه و مميزه اليوم",
     "جدول مباريات كأس العالم 2026",
     "نتائج كأس العالم 2026",
     "منتخب مصر كأس العالم",
@@ -109,7 +109,9 @@ function Live() {
   // https://b.depoooo.com/albaplayer/bein-1/?serv=1
   // src=" https://z1.depoooo.com/albaplayer/bein-1/?serv=1"
   // https://27.streemach.site/albaplayer/live2/?serv=1
-    src="https://player.syria-player.live/albaplayer/beinmax1/?serv=1"
+    src="https://hjiojhiofgkuyk.jo3.org/embed.php?id=5281618291"
+        // src="https://m4.kora-sami.com/sharjah-1/#"
+    // src="https://m4.kora-sami.com/splplayer/sharjah-1/?player=2"
     // src="https://vip.worldkoora.com/albaplayer/vip1/?serv=1"
               // src="https://24.1yalla-shoot.space/albaplayer/live1/?serv=1"
               // src="https://kora.depoooo.com/albaplayer/bein-1/?serv=2"

@@ -48,7 +48,7 @@ import { usePathname } from "next/navigation";
           className={pathname === "/Match" ? "active" : ""}
           href="/match"
         >
-          مباره كاس العالم
+          مباريات مميزه
         </Link>
         </div>
       </nav>
